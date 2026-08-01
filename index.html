@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yulia Kazanskaya — Coach en leadership international &amp; multiculturel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=PT+Sans:wght@400;700&family=PT+Mono&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#16232F;
+    --ink-2:#1F3242;
+    --ink-3:#28405630;
+    --paper:#EDE7DA;
+    --paper-2:#F7F3EA;
+    --brass:#B8863E;
+    --brass-light:#D9AE6E;
+    --burgundy:#7A3B36;
+    --muted-on-ink:#A9B7C4;
+    --muted-on-paper:#5C6A73;
+    --line-on-ink:#3A4E60;
+    --line-on-paper:#D8D0BC;
+    --max:1120px;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:0.01ms !important; animation-iteration-count:1 !important; transition-duration:0.01ms !important;}
+  }
+
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'PT Sans', sans-serif;
+    font-size:17px;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  h1,h2,h3{
+    font-family:'PT Serif', serif;
+    font-weight:700;
+    margin:0;
+    letter-spacing:-0.01em;
+  }
+
+  p{margin:0;}
+
+  a{color:inherit;}
+
+  .eyebrow{
+    font-family:'PT Mono', monospace;
+    font-size:12.5px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+  }
+
+  :focus-visible{
+    outline:2px solid var(--brass);
+    outline-offset:3px;
+  }
+
+  .wrap{
+    max-width:var(--max);
+    margin:0 auto;
+    padding:0 32px;
+  }
+
+  /* ---------- NAV ---------- */
+  header.site{
+    position:sticky; top:0; z-index:50;
+    background:rgba(22,35,47,0.92);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line-on-ink);
+  }
+  nav.wrap{
+    display:flex; align-items:center; justify-content:space-between;
+    gap:20px; padding-top:16px; padding-bottom:16px;
+    color:var(--paper);
+    flex-wrap:wrap;
+  }
+  .brand{display:flex; flex-direction:column; gap:2px;}
+  .brand .name{font-family:'PT Serif', serif; font-size:19px; font-weight:700; color:var(--paper-2);}
+  .brand .role{font-family:'PT Mono', monospace; font-size:11px; letter-spacing:0.06em; color:var(--muted-on-ink);}
+
+  .nav-links{display:flex; gap:28px; align-items:center;}
+  .nav-links a{
+    font-size:14.5px; text-decoration:none; color:var(--muted-on-ink);
+    border-bottom:1px solid transparent; padding-bottom:2px;
+    transition:color .2s, border-color .2s;
+  }
+  .nav-links a:hover{color:var(--paper-2); border-color:var(--brass);}
+
+  .nav-right{display:flex; align-items:center; gap:18px;}
+
+  .lang-switch{display:flex; gap:6px; font-family:'PT Mono', monospace; font-size:12px;}
+  .lang-switch button{
+    background:transparent; border:1px solid var(--line-on-ink); color:var(--muted-on-ink);
+    padding:5px 9px; border-radius:3px; cursor:pointer; letter-spacing:0.04em;
+    transition:all .2s;
+  }
+  .lang-switch button.active{background:var(--brass); border-color:var(--brass); color:var(--ink);}
+  .lang-switch button:hover:not(.active){border-color:var(--brass-light); color:var(--paper-2);}
+
+  .btn{
+    display:inline-block; font-family:'PT Sans', sans-serif; font-weight:700; font-size:14.5px;
+    padding:11px 22px; border-radius:3px; text-decoration:none; cursor:pointer; border:1px solid transparent;
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .btn-brass{background:var(--brass); color:var(--ink);}
+  .btn-brass:hover{transform:translateY(-1px); box-shadow:0 6px 18px -6px rgba(184,134,62,0.6);}
+  .btn-ghost{background:transparent; border-color:var(--line-on-ink); color:var(--paper-2);}
+  .btn-ghost:hover{border-color:var(--brass-light);}
+  .btn-outline-ink{background:transparent; border-color:var(--ink); color:var(--ink);}
+  .btn-outline-ink:hover{background:var(--ink); color:var(--paper);}
+
+  /* ---------- HERO ---------- */
+  section.hero{
+    background:var(--ink);
+    color:var(--paper-2);
+    padding:96px 0 80px;
+    position:relative;
+    overflow:hidden;
+  }
+  section.hero::after{
+    content:"";
+    position:absolute; inset:0;
+    background:
+      radial-gradient(600px 300px at 85% -10%, rgba(184,134,62,0.18), transparent 60%),
+      radial-gradient(500px 260px at 5% 110%, rgba(122,59,54,0.16), transparent 60%);
+    pointer-events:none;
+  }
+  .hero-inner{position:relative; z-index:1; max-width:760px;}
+  .hero .eyebrow{color:var(--brass-light); margin-bottom:22px; display:block;}
+  .hero h1{font-size:clamp(34px,5vw,54px); line-height:1.12; margin-bottom:24px;}
+  .hero .lede{font-size:19px; color:var(--muted-on-ink); max-width:600px; margin-bottom:36px;}
+  .hero-ctas{display:flex; gap:16px; flex-wrap:wrap; margin-bottom:56px;}
+
+  .lang-stack{
+    display:flex; flex-direction:column; gap:6px;
+    border-left:2px solid var(--line-on-ink); padding-left:20px;
+  }
+  .lang-line{
+    font-family:'PT Serif', serif; font-style:italic; font-size:16px;
+    color:var(--line-on-ink); opacity:0.55; transition:opacity .35s ease, color .35s ease;
+  }
+  .lang-line.active{color:var(--brass-light); opacity:1; font-size:18px;}
+
+  /* ---------- SECTION GENERIC ---------- */
+  section{padding:88px 0;}
+  .section-head{max-width:640px; margin-bottom:52px;}
+  .section-head .eyebrow{color:var(--burgundy); margin-bottom:14px; display:block;}
+  .section-head h2{font-size:clamp(26px,3.4vw,36px);}
+
+  section.on-ink{background:var(--ink); color:var(--paper-2);}
+  section.on-ink .section-head .eyebrow{color:var(--brass-light);}
+  section.on-ink p{color:var(--muted-on-ink);}
+
+  /* ---------- TIMELINE ---------- */
+  .timeline{
+    display:grid; grid-template-columns:200px 1fr; gap:0 40px;
+  }
+  .timeline-intro{grid-column:1 / -1; max-width:680px; font-size:18px; margin-bottom:48px; color:var(--ink);}
+  .t-item{display:contents;}
+  .t-label{
+    font-family:'PT Mono', monospace; font-size:12.5px; letter-spacing:0.04em;
+    color:var(--brass); padding-top:4px; position:relative;
+  }
+  .t-label::before{
+    content:""; position:absolute; left:-26px; top:6px; width:9px; height:9px; border-radius:50%;
+    background:var(--brass); box-shadow:0 0 0 4px var(--paper);
+  }
+  .t-line{
+    grid-column:1; width:1px; background:var(--line-on-paper); margin-left:-26px+9px;
+  }
+  .t-body{padding-bottom:44px; border-left:1px solid var(--line-on-paper); padding-left:0; max-width:640px;}
+  .t-item:not(:last-child) .t-label{border-left:1px solid var(--line-on-paper); padding-left:26px; margin-left:-26px;}
+  .t-item:last-child .t-label{padding-left:26px; margin-left:-26px;}
+  .t-body p{color:var(--muted-on-paper); font-size:16px;}
+
+  @media (max-width:720px){
+    .timeline{grid-template-columns:1fr;}
+    .t-label{padding-left:0 !important; margin-left:0 !important; border-left:none !important; margin-bottom:6px;}
+    .t-label::before{display:none;}
+    .t-body{border-left:none; padding-bottom:32px;}
+  }
+
+  /* ---------- POUR QUI ---------- */
+  .who-grid{display:grid; grid-template-columns:1.1fr 0.9fr; gap:56px; align-items:start;}
+  .who-grid p{font-size:18px; color:var(--muted-on-ink); margin-bottom:22px;}
+  .who-quote{
+    font-family:'PT Serif', serif; font-style:italic; font-size:24px; line-height:1.4;
+    color:var(--paper-2); border-left:3px solid var(--brass); padding-left:24px;
+  }
+  .who-outcome{
+    font-family:'PT Mono', monospace; font-size:13.5px; letter-spacing:0.02em; color:var(--brass-light);
+    margin-top:24px; line-height:1.7;
+  }
+  @media (max-width:800px){ .who-grid{grid-template-columns:1fr;} }
+
+  /* ---------- LANGUES ---------- */
+  .lang-cards{display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-top:12px;}
+  .lang-card{
+    background:var(--paper-2); border:1px solid var(--line-on-paper); border-radius:6px;
+    padding:26px 22px;
+  }
+  .lang-card .code{font-family:'PT Mono', monospace; font-size:11px; color:var(--brass); letter-spacing:0.08em; margin-bottom:10px; display:block;}
+  .lang-card h3{font-size:20px; margin-bottom:10px;}
+  .lang-card p{font-size:15px; color:var(--muted-on-paper);}
+  @media (max-width:720px){ .lang-cards{grid-template-columns:1fr;} }
+
+  /* ---------- TEMOIGNAGES ---------- */
+  .testi-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:22px;}
+  .testi-card{
+    border:1px dashed var(--line-on-paper); border-radius:6px; padding:28px;
+    background:var(--paper-2);
+  }
+  .testi-card p.quote{
+    font-family:'PT Serif', serif; font-style:italic; font-size:17px; color:var(--ink);
+    margin-bottom:16px;
+  }
+  .testi-card p.attr{font-family:'PT Mono', monospace; font-size:12.5px; color:var(--muted-on-paper);}
+  @media (max-width:720px){ .testi-grid{grid-template-columns:1fr;} }
+
+  /* ---------- BOOKING ---------- */
+  section.booking{background:var(--ink); color:var(--paper-2); text-align:center;}
+  .booking-inner{max-width:560px; margin:0 auto;}
+  .booking-inner .eyebrow{color:var(--brass-light); display:block; margin-bottom:16px;}
+  .booking-inner h2{font-size:clamp(26px,3.6vw,38px); margin-bottom:18px;}
+  .booking-inner p{color:var(--muted-on-ink); font-size:17px; margin-bottom:32px;}
+  .booking-frame{
+    margin-top:36px; border:1px solid var(--line-on-ink); border-radius:8px;
+    padding:40px 24px; background:var(--ink-2);
+  }
+  .booking-frame .cal-icon{
+    width:38px; height:38px; margin:0 auto 16px; border:1.5px solid var(--brass-light); border-radius:6px;
+    position:relative;
+  }
+  .booking-frame .cal-icon::before{
+    content:""; position:absolute; top:-1.5px; left:6px; width:1.5px; height:9px; background:var(--brass-light);
+  }
+  .booking-frame .cal-icon::after{
+    content:""; position:absolute; top:-1.5px; right:6px; width:1.5px; height:9px; background:var(--brass-light);
+  }
+  .booking-note{font-family:'PT Mono', monospace; font-size:12px; color:var(--muted-on-ink); margin-top:16px;}
+
+  /* ---------- FOOTER ---------- */
+  footer{background:var(--ink); color:var(--muted-on-ink); border-top:1px solid var(--line-on-ink); padding:48px 0 32px;}
+  .footer-grid{display:flex; justify-content:space-between; flex-wrap:wrap; gap:32px; margin-bottom:32px;}
+  .footer-brand .name{font-family:'PT Serif', serif; color:var(--paper-2); font-size:19px; margin-bottom:8px;}
+  .footer-brand p{max-width:340px; font-size:14.5px;}
+  .footer-contact .eyebrow{color:var(--brass-light); display:block; margin-bottom:10px;}
+  .footer-contact a{display:block; font-size:14.5px; margin-bottom:6px; text-decoration:none;}
+  .footer-contact a:hover{color:var(--brass-light);}
+  .footer-bottom{border-top:1px solid var(--line-on-ink); padding-top:20px; font-size:13px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px;}
+  .footer-langs{font-family:'PT Mono', monospace; letter-spacing:0.04em;}
+
+  [data-fade]{opacity:0; transform:translateY(14px); transition:opacity .6s ease, transform .6s ease;}
+  [data-fade].in{opacity:1; transform:none;}
+</style>
+</head>
+<body>
+
+<header class="site">
+  <nav class="wrap">
+    <div class="brand">
+      <span class="name">Yulia Kazanskaya</span>
+      <span class="role" data-i18n="nav.role">Coach en leadership international &amp; multiculturel</span>
+    </div>
+    <div class="nav-links">
+      <a href="#parcours" data-i18n="nav.journey">Parcours</a>
+      <a href="#approche" data-i18n="nav.approach">Approche</a>
+      <a href="#temoignages" data-i18n="nav.testimonials">Témoignages</a>
+      <a href="#rendezvous" data-i18n="nav.booking">Rendez-vous</a>
+    </div>
+    <div class="nav-right">
+      <div class="lang-switch" role="group" aria-label="Choix de la langue">
+        <button type="button" data-lang-btn="fr" class="active">FR</button>
+        <button type="button" data-lang-btn="en">EN</button>
+        <button type="button" data-lang-btn="ru">RU</button>
+      </div>
+      <a href="#rendezvous" class="btn btn-brass" data-i18n="nav.cta">Réserver un échange</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-inner">
+    <span class="eyebrow" data-i18n="hero.eyebrow">COACHING · LEADERSHIP INTERNATIONAL &amp; MULTICULTUREL</span>
+    <h1 data-i18n="hero.h1">Grandir dans la complexité.<br>Avancer avec clarté.</h1>
+    <p class="lede" data-i18n="hero.lede">Depuis plus de vingt ans, j'accompagne des dirigeants, des managers et des talents qui évoluent dans des environnements internationaux et multiculturels — en français, en anglais et en russe.</p>
+    <div class="hero-ctas">
+      <a href="#rendezvous" class="btn btn-brass" data-i18n="hero.ctaPrimary">Réserver un premier échange</a>
+      <a href="#parcours" class="btn btn-ghost" data-i18n="hero.ctaSecondary">Découvrir mon parcours</a>
+    </div>
+    <div class="lang-stack" aria-hidden="true">
+      <p class="lang-line active" data-lang-line="fr">Vous accompagner, dans votre langue.</p>
+      <p class="lang-line" data-lang-line="en">Supporting you, in your language.</p>
+      <p class="lang-line" data-lang-line="ru">Сопровождаю вас на вашем языке.</p>
+    </div>
+  </div>
+</section>
+
+<section id="parcours" data-fade>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow" data-i18n="journey.eyebrow">MON HISTOIRE</span>
+      <h2 data-i18n="journey.h2">Mon parcours</h2>
+    </div>
+    <p class="timeline-intro" data-i18n="journey.intro">Le fil rouge ? Depuis plus de vingt ans, j'accompagne des personnes dans leur développement — d'abord comme enseignante, puis dans l'enseignement supérieur international, et aujourd'hui comme coach.</p>
+    <div class="timeline">
+      <div class="t-item">
+        <div class="t-label" data-i18n="journey.t1.label">Langues &amp; pédagogie</div>
+        <div class="t-body"><p data-i18n="journey.t1.text">Passionnée depuis toujours par les langues et les cultures, je me suis formée à l'enseignement des langues étrangères et à la communication interculturelle, avant de passer près de huit ans dans l'enseignement.</p></div>
+      </div>
+      <div class="t-item">
+        <div class="t-label" data-i18n="journey.t2.label">Enseignement supérieur international</div>
+        <div class="t-body"><p data-i18n="journey.t2.text">J'ai ensuite rejoint l'enseignement supérieur, où j'ai passé plus de dix ans à développer des marchés et des partenariats internationaux, tout en accompagnant de jeunes talents dans leurs projets d'études et de carrière — au sein d'organisations exigeantes, aux équipes matricielles et multiculturelles.</p></div>
+      </div>
+      <div class="t-item">
+        <div class="t-label" data-i18n="journey.t3.label">2018 — Ma propre transition</div>
+        <div class="t-body"><p data-i18n="journey.t3.text">J'ai quitté la Russie pour m'installer en France : reprendre un MBA, reconstruire une carrière dans une nouvelle langue, une nouvelle culture, un nouvel environnement. Une expérience qui a profondément changé mon regard sur les transitions.</p></div>
+      </div>
+      <div class="t-item">
+        <div class="t-label" data-i18n="journey.t4.label">Aujourd'hui — Le coaching</div>
+        <div class="t-body"><p data-i18n="journey.t4.text">J'ai compris que les grandes transitions, aussi déstabilisantes soient-elles, sont aussi des occasions de grandir, de redéfinir son identité et de révéler des ressources insoupçonnées. C'est cette conviction qui m'a naturellement conduite vers le coaching.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="approche" class="on-ink" data-fade>
+  <div class="wrap">
+    <div class="who-grid">
+      <div>
+        <span class="eyebrow" data-i18n="who.eyebrow">POUR QUI</span>
+        <h2 style="margin:14px 0 24px; font-size:clamp(26px,3.4vw,36px);" data-i18n="who.h2">Pour qui ?</h2>
+        <p data-i18n="who.p1">J'accompagne des dirigeants, des managers et des talents qui évoluent dans des environnements complexes et multiculturels — confrontés à la pression de la performance, à la complexité organisationnelle, à la nécessité de coopérer entre cultures différentes et de s'adapter en permanence. Je m'adresse en particulier à celles et ceux qui traversent un changement, prennent de nouvelles responsabilités, ou évoluent dans un contexte international.</p>
+        <p class="who-outcome" data-i18n="who.outcome">Pour prendre du recul, mobiliser vos ressources, et avancer avec plus de confiance, de clarté et d'alignement.</p>
+      </div>
+      <div>
+        <p class="who-quote" data-i18n="who.quote">Et si votre prochaine transition devenait votre plus grande ressource ?</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-fade>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow" data-i18n="langs.eyebrow">TROIS LANGUES</span>
+      <h2 data-i18n="langs.h2">Trois langues, une seule écoute</h2>
+    </div>
+    <p style="max-width:680px; font-size:18px; color:var(--muted-on-paper); margin-bottom:8px;" data-i18n="langs.p1">Je coache en français, en anglais et en russe — non pas comme trois options, mais comme trois façons d'accéder à ce qui compte vraiment pour vous. Certaines pensées se disent mieux dans une langue que dans une autre ; je vous laisse le choix.</p>
+    <div class="lang-cards">
+      <div class="lang-card">
+        <span class="code">FR</span>
+        <h3>Français</h3>
+        <p data-i18n="langs.fr.desc">Langue de travail principale, en France et à l'international.</p>
+      </div>
+      <div class="lang-card">
+        <span class="code">EN</span>
+        <h3>English</h3>
+        <p data-i18n="langs.en.desc">Pour vos environnements professionnels internationaux.</p>
+      </div>
+      <div class="lang-card">
+        <span class="code">RU</span>
+        <h3>Русский</h3>
+        <p data-i18n="langs.ru.desc">Ma langue maternelle, pour explorer certains sujets sans détour.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="temoignages" data-fade>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow" data-i18n="testi.eyebrow">RETOURS D'EXPÉRIENCE</span>
+      <h2 data-i18n="testi.h2">Ce qu'en disent mes clients</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <p class="quote" data-i18n="testi.c1.quote">[Témoignage à ajouter — décrivez ici le résultat concret obtenu par un premier client.]</p>
+        <p class="attr" data-i18n="testi.c1.attr">— Prénom, Fonction</p>
+      </div>
+      <div class="testi-card">
+        <p class="quote" data-i18n="testi.c2.quote">[Second témoignage à ajouter — un contexte, une transformation, un résultat.]</p>
+        <p class="attr" data-i18n="testi.c2.attr">— Prénom, Fonction</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="rendezvous" class="booking" data-fade>
+  <div class="wrap booking-inner">
+    <span class="eyebrow" data-i18n="booking.eyebrow">PROCHAINE ÉTAPE</span>
+    <h2 data-i18n="booking.h2">Réserver un échange</h2>
+    <p data-i18n="booking.p1">La meilleure façon de savoir si nous sommes faits pour travailler ensemble ? En parler. Réservez directement un premier échange, à l'heure qui vous convient.</p>
+    <a href="#" class="btn btn-brass" data-i18n="booking.cta">Choisir un créneau</a>
+    <div class="booking-frame">
+      <div class="cal-icon" aria-hidden="true"></div>
+      <p class="booking-note" data-i18n="booking.note">Le calendrier s'affichera ici une fois connecté (Calendly, etc.).</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="name">Yulia Kazanskaya</div>
+        <p data-i18n="footer.tagline">Coach en leadership international &amp; multiculturel — en français, en anglais et en russe.</p>
+      </div>
+      <div class="footer-contact">
+        <span class="eyebrow" data-i18n="footer.contact">CONTACT</span>
+        <a href="mailto:votre@email.com">votre@email.com</a>
+        <a href="#" data-i18n="footer.linkedin">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-i18n="footer.copy">© 2026 Yulia Kazanskaya. Tous droits réservés.</span>
+      <span class="footer-langs">FR · EN · RU</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+const translations = {
+  fr: {
+    "nav.role":"Coach en leadership international &amp; multiculturel",
+    "nav.journey":"Parcours","nav.approach":"Approche","nav.testimonials":"Témoignages","nav.booking":"Rendez-vous",
+    "nav.cta":"Réserver un échange",
+    "hero.eyebrow":"COACHING · LEADERSHIP INTERNATIONAL &amp; MULTICULTUREL",
+    "hero.h1":"Grandir dans la complexité.<br>Avancer avec clarté.",
+    "hero.lede":"Depuis plus de vingt ans, j'accompagne des dirigeants, des managers et des talents qui évoluent dans des environnements internationaux et multiculturels — en français, en anglais et en russe.",
+    "hero.ctaPrimary":"Réserver un premier échange","hero.ctaSecondary":"Découvrir mon parcours",
+    "journey.eyebrow":"MON HISTOIRE","journey.h2":"Mon parcours",
+    "journey.intro":"Le fil rouge ? Depuis plus de vingt ans, j'accompagne des personnes dans leur développement — d'abord comme enseignante, puis dans l'enseignement supérieur international, et aujourd'hui comme coach.",
+    "journey.t1.label":"Langues &amp; pédagogie",
+    "journey.t1.text":"Passionnée depuis toujours par les langues et les cultures, je me suis formée à l'enseignement des langues étrangères et à la communication interculturelle, avant de passer près de huit ans dans l'enseignement.",
+    "journey.t2.label":"Enseignement supérieur international",
+    "journey.t2.text":"J'ai ensuite rejoint l'enseignement supérieur, où j'ai passé plus de dix ans à développer des marchés et des partenariats internationaux, tout en accompagnant de jeunes talents dans leurs projets d'études et de carrière — au sein d'organisations exigeantes, aux équipes matricielles et multiculturelles.",
+    "journey.t3.label":"2018 — Ma propre transition",
+    "journey.t3.text":"J'ai quitté la Russie pour m'installer en France : reprendre un MBA, reconstruire une carrière dans une nouvelle langue, une nouvelle culture, un nouvel environnement. Une expérience qui a profondément changé mon regard sur les transitions.",
+    "journey.t4.label":"Aujourd'hui — Le coaching",
+    "journey.t4.text":"J'ai compris que les grandes transitions, aussi déstabilisantes soient-elles, sont aussi des occasions de grandir, de redéfinir son identité et de révéler des ressources insoupçonnées. C'est cette conviction qui m'a naturellement conduite vers le coaching.",
+    "who.eyebrow":"POUR QUI","who.h2":"Pour qui ?",
+    "who.p1":"J'accompagne des dirigeants, des managers et des talents qui évoluent dans des environnements complexes et multiculturels — confrontés à la pression de la performance, à la complexité organisationnelle, à la nécessité de coopérer entre cultures différentes et de s'adapter en permanence. Je m'adresse en particulier à celles et ceux qui traversent un changement, prennent de nouvelles responsabilités, ou évoluent dans un contexte international.",
+    "who.outcome":"Pour prendre du recul, mobiliser vos ressources, et avancer avec plus de confiance, de clarté et d'alignement.",
+    "who.quote":"Et si votre prochaine transition devenait votre plus grande ressource ?",
+    "langs.eyebrow":"TROIS LANGUES","langs.h2":"Trois langues, une seule écoute",
+    "langs.p1":"Je coache en français, en anglais et en russe — non pas comme trois options, mais comme trois façons d'accéder à ce qui compte vraiment pour vous. Certaines pensées se disent mieux dans une langue que dans une autre ; je vous laisse le choix.",
+    "langs.fr.desc":"Langue de travail principale, en France et à l'international.",
+    "langs.en.desc":"Pour vos environnements professionnels internationaux.",
+    "langs.ru.desc":"Ma langue maternelle, pour explorer certains sujets sans détour.",
+    "testi.eyebrow":"RETOURS D'EXPÉRIENCE","testi.h2":"Ce qu'en disent mes clients",
+    "testi.c1.quote":"[Témoignage à ajouter — décrivez ici le résultat concret obtenu par un premier client.]","testi.c1.attr":"— Prénom, Fonction",
+    "testi.c2.quote":"[Second témoignage à ajouter — un contexte, une transformation, un résultat.]","testi.c2.attr":"— Prénom, Fonction",
+    "booking.eyebrow":"PROCHAINE ÉTAPE","booking.h2":"Réserver un échange",
+    "booking.p1":"La meilleure façon de savoir si nous sommes faits pour travailler ensemble ? En parler. Réservez directement un premier échange, à l'heure qui vous convient.",
+    "booking.cta":"Choisir un créneau",
+    "booking.note":"Le calendrier s'affichera ici une fois connecté (Calendly, etc.).",
+    "footer.tagline":"Coach en leadership international &amp; multiculturel — en français, en anglais et en russe.",
+    "footer.contact":"CONTACT","footer.linkedin":"LinkedIn",
+    "footer.copy":"© 2026 Yulia Kazanskaya. Tous droits réservés."
+  },
+  en: {
+    "nav.role":"International &amp; Multicultural Leadership Coach",
+    "nav.journey":"Journey","nav.approach":"Approach","nav.testimonials":"Testimonials","nav.booking":"Booking",
+    "nav.cta":"Book a call",
+    "hero.eyebrow":"COACHING · INTERNATIONAL &amp; MULTICULTURAL LEADERSHIP",
+    "hero.h1":"Grow through complexity.<br>Move forward with clarity.",
+    "hero.lede":"For more than twenty years, I have accompanied executives, managers and talents navigating international, multicultural environments — in French, English and Russian.",
+    "hero.ctaPrimary":"Book a first call","hero.ctaSecondary":"Discover my journey",
+    "journey.eyebrow":"MY STORY","journey.h2":"My journey",
+    "journey.intro":"The common thread? For more than twenty years I have accompanied people in their development — first as a teacher, then in international higher education, and today as a coach.",
+    "journey.t1.label":"Languages &amp; pedagogy",
+    "journey.t1.text":"Always passionate about languages and cultures, I trained in foreign language teaching and intercultural communication, before spending nearly eight years in teaching.",
+    "journey.t2.label":"International higher education",
+    "journey.t2.text":"I then joined international higher education, spending more than ten years developing markets and international partnerships, while guiding young talents in their study and career projects — within demanding organisations, with matrixed, multicultural teams.",
+    "journey.t3.label":"2018 — My own transition",
+    "journey.t3.text":"I left Russia to settle in France: going back for an MBA, rebuilding a career in a new language, a new culture, a new environment. An experience that profoundly changed how I see transitions.",
+    "journey.t4.label":"Today — Coaching",
+    "journey.t4.text":"I came to understand that major transitions, however destabilising, are also opportunities to grow, redefine one's identity and reveal unsuspected resources. That conviction is what naturally led me to coaching.",
+    "who.eyebrow":"WHO THIS IS FOR","who.h2":"Who this is for",
+    "who.p1":"I work with executives, managers and talents navigating complex, multicultural environments — facing the pressure of performance, organisational complexity, the need to cooperate across cultures and to adapt constantly. I work especially with those going through change, taking on new responsibilities, or operating in an international context.",
+    "who.outcome":"To step back, mobilise your resources, and move forward with more confidence, clarity and alignment.",
+    "who.quote":"What if your next transition became your greatest resource?",
+    "langs.eyebrow":"THREE LANGUAGES","langs.h2":"Three languages, one way of listening",
+    "langs.p1":"I coach in French, English and Russian — not as three separate options, but as three ways of reaching what truly matters to you. Some thoughts are best expressed in one language rather than another; the choice is yours.",
+    "langs.fr.desc":"My main working language, in France and internationally.",
+    "langs.en.desc":"For international and cross-cultural professional settings.",
+    "langs.ru.desc":"My native language — for exploring certain topics without detour.",
+    "testi.eyebrow":"CLIENT FEEDBACK","testi.h2":"What clients say",
+    "testi.c1.quote":"[Add a testimonial — describe the concrete outcome a client experienced.]","testi.c1.attr":"— First name, Role",
+    "testi.c2.quote":"[Add a second testimonial — context, transformation, result.]","testi.c2.attr":"— First name, Role",
+    "booking.eyebrow":"NEXT STEP","booking.h2":"Book a call",
+    "booking.p1":"The best way to know if we're a good fit? Talk about it. Book a first call directly, at a time that suits you.",
+    "booking.cta":"Choose a time",
+    "booking.note":"Your calendar will appear here once connected (Calendly, etc.).",
+    "footer.tagline":"International &amp; multicultural leadership coach — in French, English and Russian.",
+    "footer.contact":"CONTACT","footer.linkedin":"LinkedIn",
+    "footer.copy":"© 2026 Yulia Kazanskaya. All rights reserved."
+  },
+  ru: {
+    "nav.role":"Коуч по международному и мультикультурному лидерству",
+    "nav.journey":"Путь","nav.approach":"Подход","nav.testimonials":"Отзывы","nav.booking":"Запись",
+    "nav.cta":"Записаться на встречу",
+    "hero.eyebrow":"КОУЧИНГ · МЕЖДУНАРОДНОЕ И МУЛЬТИКУЛЬТУРНОЕ ЛИДЕРСТВО",
+    "hero.h1":"Расти в сложности.<br>Двигаться с ясностью.",
+    "hero.lede":"Уже более двадцати лет я сопровождаю руководителей, менеджеров и специалистов, работающих в международной и мультикультурной среде — на французском, английском и русском языках.",
+    "hero.ctaPrimary":"Записаться на первую встречу","hero.ctaSecondary":"Узнать о моём пути",
+    "journey.eyebrow":"МОЯ ИСТОРИЯ","journey.h2":"Мой путь",
+    "journey.intro":"Что связывает все эти годы? Более двадцати лет я сопровождаю людей в их развитии — сначала как преподаватель, затем в сфере международного высшего образования, а сегодня как коуч.",
+    "journey.t1.label":"Языки и педагогика",
+    "journey.t1.text":"Всегда увлечённая языками и культурами, я получила образование в области преподавания иностранных языков и межкультурной коммуникации, а затем почти восемь лет проработала преподавателем.",
+    "journey.t2.label":"Международное высшее образование",
+    "journey.t2.text":"Затем я перешла в сферу международного высшего образования, где более десяти лет развивала рынки и международные партнёрства, одновременно сопровождая молодых специалистов в их учебных и карьерных проектах — в требовательных организациях с матричными, мультикультурными командами.",
+    "journey.t3.label":"2018 — Мой собственный переход",
+    "journey.t3.text":"Я уехала из России, чтобы обосноваться во Франции: снова села за учебники ради MBA, заново выстроила карьеру на новом языке, в новой культуре, в новой профессиональной среде. Этот опыт полностью изменил моё отношение к переменам.",
+    "journey.t4.label":"Сегодня — Коучинг",
+    "journey.t4.text":"Я поняла, что большие перемены, какими бы дестабилизирующими они ни были, — это ещё и возможность расти, переосмыслить свою идентичность и открыть в себе неожиданные ресурсы. Именно это убеждение привело меня к коучингу.",
+    "who.eyebrow":"КОМУ ЭТО ПОДХОДИТ","who.h2":"Кому это подходит",
+    "who.p1":"Я работаю с руководителями, менеджерами и специалистами, действующими в сложной мультикультурной среде — сталкивающимися с давлением результата, организационной сложностью, необходимостью сотрудничать между культурами и постоянно адаптироваться. Я особенно поддерживаю тех, кто переживает перемены, берёт на себя новую ответственность или работает в международном контексте.",
+    "who.outcome":"Чтобы взглянуть на ситуацию со стороны, задействовать свои ресурсы и двигаться вперёд увереннее, яснее и в большем согласии с собой.",
+    "who.quote":"А что, если ваш следующий переход станет вашим главным ресурсом?",
+    "langs.eyebrow":"ТРИ ЯЗЫКА","langs.h2":"Три языка, одно внимание",
+    "langs.p1":"Я провожу коучинг на французском, английском и русском языках — это не три отдельных варианта, а три способа добраться до того, что действительно важно для вас. Некоторые мысли легче выразить на одном языке, чем на другом — выбор всегда за вами.",
+    "langs.fr.desc":"Мой основной рабочий язык — во Франции и на международном уровне.",
+    "langs.en.desc":"Для международных и межкультурных профессиональных контекстов.",
+    "langs.ru.desc":"Родной язык — чтобы говорить о важном без языкового барьера.",
+    "testi.eyebrow":"ОТЗЫВЫ КЛИЕНТОВ","testi.h2":"Отзывы клиентов",
+    "testi.c1.quote":"[Добавьте отзыв — опишите конкретный результат, которого достиг клиент.]","testi.c1.attr":"— Имя, должность",
+    "testi.c2.quote":"[Добавьте второй отзыв — контекст, изменения, результат.]","testi.c2.attr":"— Имя, должность",
+    "booking.eyebrow":"СЛЕДУЮЩИЙ ШАГ","booking.h2":"Запись на встречу",
+    "booking.p1":"Лучший способ понять, подходим ли мы друг другу для совместной работы? Просто поговорить. Запишитесь на первую встречу в удобное для вас время.",
+    "booking.cta":"Выбрать время",
+    "booking.note":"Здесь появится календарь после подключения (Calendly и т.д.).",
+    "footer.tagline":"Коуч по международному и мультикультурному лидерству — на французском, английском и русском.",
+    "footer.contact":"КОНТАКТЫ","footer.linkedin":"LinkedIn",
+    "footer.copy":"© 2026 Юлия Казанская. Все права защищены."
+  }
+};
+
+function setLang(lang){
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-i18n]').forEach(el=>{
+    const key = el.getAttribute('data-i18n');
+    const val = translations[lang][key];
+    if(val !== undefined){ el.innerHTML = val; }
+  });
+  document.querySelectorAll('[data-lang-btn]').forEach(btn=>{
+    btn.classList.toggle('active', btn.getAttribute('data-lang-btn') === lang);
+  });
+  document.querySelectorAll('[data-lang-line]').forEach(line=>{
+    line.classList.toggle('active', line.getAttribute('data-lang-line') === lang);
+  });
+}
+
+document.querySelectorAll('[data-lang-btn]').forEach(btn=>{
+  btn.addEventListener('click', ()=> setLang(btn.getAttribute('data-lang-btn')));
+});
+
+const observer = new IntersectionObserver((entries)=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting){
+      entry.target.classList.add('in');
+      observer.unobserve(entry.target);
+    }
+  });
+},{threshold:0.12});
+document.querySelectorAll('[data-fade]').forEach(el=>observer.observe(el));
+</script>
+
+</body>
+</html>
