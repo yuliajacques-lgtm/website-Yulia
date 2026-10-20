@@ -23,11 +23,9 @@ const TEXT=
     "statementText": "En arrivant dans un nouvel environnement de travail, j’ai dû apprendre d’autres codes et construire un réseau professionnel. Aujourd’hui, ce parcours nourrit ma compréhension des difficultés que l’on peut rencontrer lorsqu’on change de contexte ou de direction.",
     "aboutK": "À propos",
     "aboutTitle": "Mon expérience internationale, de l’éducation au coaching",
-    "aboutIntro": "Avant de me former au coaching, j’ai construit ma carrière dans l’éducation et le développement international. J’y ai appris à piloter des activités, à travailler avec des équipes de cultures différentes et à accompagner des personnes à des moments importants de leur parcours.",
+    "aboutIntro": "Mon parcours s’est construit dans l’éducation internationale : d’abord dans l’enseignement et la direction pédagogique, puis dans le développement de marchés, les partenariats et le management. Il m’a amenée à travailler avec des équipes multiculturelles et des interlocuteurs aux trajectoires très différentes.",
     "aboutPortrait": "Un parcours construit<br>entre plusieurs cultures.",
     "aboutPortraitTag": "Emplacement réservé à un portrait professionnel",
-    "aboutP1": "J’ai commencé dans l’enseignement, avant de prendre des responsabilités dans le développement de marchés, les partenariats stratégiques et le management au sein de groupes d’éducation présents à l’international. Ces fonctions m’ont conduite à travailler avec des équipes, des partenaires et des familles dans des contextes culturels très variés.",
-    "aboutP2": "Ce parcours m’a donné une connaissance concrète des organisations exigeantes, de leurs objectifs et de leurs contradictions. J’ai dirigé des équipes, négocié des partenariats et développé des projets. J’ai aussi vu combien la qualité des relations, la communication et le sentiment de légitimité comptent dans une trajectoire professionnelle.",
     "aboutP3": "En 2018, j’ai moi-même changé de cadre de vie et de travail en venant en France pour poursuivre un MBA. Il a fallu comprendre une nouvelle culture professionnelle, construire un réseau et apprendre à présenter une expérience acquise ailleurs. Cette période m’a fait prendre conscience de la place que tiennent la confiance et l’identité professionnelle dans une transition.",
     "aboutP4": "J’ai également traversé des périodes d’incertitude professionnelle. Je connais la fatigue, les doutes et la difficulté à se projeter lorsque les démarches n’aboutissent pas. Ces expériences comptent dans ma façon d’écouter les personnes que j’accompagne.",
     "aboutNotes": [
@@ -170,7 +168,6 @@ const TEXT=
     "portraitNote": "PORTRAIT PROFESSIONNEL À AJOUTER",
     "portraitCaption": "Un parcours personnel et professionnel entre deux pays.",
     "careerEyebrow": "Expérience professionnelle",
-    "careerLead": "Deux grandes étapes, de l’enseignement et la direction pédagogique au développement international dans l’éducation.",
     "journey": [
       {
         "dates": "2005–2011",
@@ -188,10 +185,10 @@ const TEXT=
     "mobilityEyebrow": "Une transition personnelle",
     "mobilityTitle": "Une transition personnelle et professionnelle",
     "mobilityP1": "En 2018, j’ai quitté la Russie pour m’installer en France et poursuivre un MBA à Grenoble École de Management. Après plusieurs années de carrière, j’ai dû apprendre à évoluer dans une autre langue de travail, comprendre de nouveaux codes professionnels et reconstruire mon réseau. Cette transition a profondément changé mes repères et m’a amenée à reconsidérer ma place et mon identité professionnelle.",
-    "mobilityP2": "J’ai découvert combien il peut être exigeant de faire reconnaître son expérience dans un nouvel environnement, de garder confiance face à l’incertitude et de trouver sa direction lorsque les repères habituels disparaissent. Cette expérience a également nourri mon intérêt pour le coaching. Elle me rend aujourd’hui particulièrement attentive aux personnes qui traversent des changements importants, choisis ou subis, et qui cherchent à retrouver leurs propres repères pour avancer.",
+    "mobilityP2": "J’ai découvert combien il peut être exigeant de faire reconnaître son expérience dans un nouvel environnement, de garder confiance face à l’incertitude et de trouver sa direction lorsque les repères habituels disparaissent. Ce changement m’a amenée à réfléchir autrement à la place du travail et de l’identité professionnelle dans les grandes transitions.",
     "practiceEyebrow": "Aujourd’hui",
     "practiceTitle": "Ce que j’apporte à mon accompagnement",
-    "practiceP": "Mon expérience du management et du développement international me permet de comprendre les réalités des organisations, leurs exigences et les questions auxquelles les professionnels sont confrontés. Dans mes séances, j’accorde une grande importance à l’écoute, à la qualité du questionnement et à la définition d’objectifs concrets. Nous prenons le temps d’examiner votre situation et d’identifier les pistes que vous souhaitez explorer.",
+    "practiceP": "Je connais les exigences des organisations internationales, mais aussi les questions que soulève une transition vécue personnellement. Ces expériences me permettent d’accueillir votre situation avec une compréhension concrète de son contexte, tout en restant attentive à ce qui vous est propre. En coaching, je m’appuie sur l’écoute et le questionnement pour vous aider à clarifier vos priorités et à avancer vers vos propres décisions.",
     "credentialsK": "Qualifications et formations",
     "credentialsTitle": "Credentials",
     "academicK": "Formation académique",
@@ -276,11 +273,9 @@ const TEXT=
     "statementText": "I had to get to know a different professional culture and build a network in a new country. This experience continues to shape the way I understand the challenges people face when their work or circumstances change.",
     "aboutK": "About",
     "aboutTitle": "My international career, from education to coaching",
-    "aboutIntro": "Before training as a coach, I built my career in education and international business development. It taught me how to lead teams, grow activities and work with people whose professional and cultural backgrounds are very different.",
+    "aboutIntro": "My career has developed in international education: first in teaching and academic leadership, then in market development, partnerships and management. Along the way, I have worked with multicultural teams and people from a wide range of professional and personal backgrounds.",
     "aboutPortrait": "A career shaped<br>by different cultures.",
     "aboutPortraitTag": "Space reserved for a professional portrait",
-    "aboutP1": "I began in teaching before moving into international market development, strategic partnerships and management roles within global education groups. Over the years, I worked with teams, partners, students and families across a wide range of cultural contexts.",
-    "aboutP2": "These roles gave me a practical understanding of demanding organisations, performance expectations and the realities behind the numbers. I managed teams, built partnerships and launched projects. I also saw how much professional progress depends on communication, trust and the ability to make one's contribution understood.",
     "aboutP3": "In 2018, I made a major move of my own, coming to France to pursue an MBA and build a career in a different professional culture. I had to develop a new network and learn how to explain the value of experience gained elsewhere. That experience changed the way I think about confidence, belonging and professional identity.",
     "aboutP4": "I have experienced periods of professional uncertainty myself. I know how tiring and discouraging it can be when your efforts do not bring immediate results. These experiences are part of what informs the way I listen to people I coach.",
     "aboutNotes": [
@@ -411,7 +406,6 @@ const TEXT=
     "portraitNote": "PROFESSIONAL PORTRAIT TO BE ADDED",
     "portraitCaption": "A personal and professional journey across two countries.",
     "careerEyebrow": "Professional experience",
-    "careerLead": "Two key stages, from teaching and academic leadership to international development in education.",
     "journey": [
       {
         "dates": "2005–2011",
@@ -429,10 +423,10 @@ const TEXT=
     "mobilityEyebrow": "A personal transition",
     "mobilityTitle": "A personal and professional transition",
     "mobilityP1": "In 2018, I left Russia to settle in France and pursue an MBA at Grenoble École de Management. After several years of professional experience, I had to adapt to a different working language, understand unfamiliar professional expectations and rebuild my network. This transition challenged my sense of direction and led me to reconsider my place and professional identity.",
-    "mobilityP2": "I came to understand how demanding it can be to have your experience recognised in a new environment, maintain confidence through uncertainty and find a way forward when familiar reference points no longer apply. This experience also contributed to my interest in coaching. Today, it makes me particularly attentive to people navigating significant changes, whether chosen or unexpected, as they seek to find their own footing and move forward.",
+    "mobilityP2": "I discovered how demanding it can be to have your experience recognised in a new environment, maintain confidence through uncertainty and find direction when familiar reference points disappear. This change also reshaped how I think about the role of work and professional identity during major transitions.",
     "practiceEyebrow": "My approach today",
     "practiceTitle": "The perspective I bring to coaching",
-    "practiceP": "My experience in international management and business development helps me understand how organisations work, what they expect of people and the questions professionals face in their careers. I place particular importance on listening carefully, asking thoughtful questions and agreeing on clear objectives. Together, we look closely at your situation and the possibilities you would like to consider.",
+    "practiceP": "I understand the demands of international organisations, as well as the questions that arise when you experience a major transition yourself. This background helps me understand the realities of your professional context while remaining attentive to what is unique to your situation. In coaching, I draw on listening and thoughtful questioning to help you clarify your priorities and make decisions that are your own.",
     "credentialsK": "Education & professional development",
     "credentialsTitle": "Credentials",
     "academicK": "Academic qualifications",
@@ -517,11 +511,9 @@ const TEXT=
     "statementText": "Мне пришлось разбираться в новой деловой культуре и создавать профессиональные связи в другой стране. Этот опыт помогает мне лучше понимать сложности, с которыми сталкиваются люди, меняющие работу, страну или направление карьеры.",
     "aboutK": "Обо мне",
     "aboutTitle": "Мой путь в международном образовании, управлении и коучинге",
-    "aboutIntro": "Прежде чем прийти в коучинг, я много лет работала в сфере образования и международного бизнеса. Я развивала новые рынки, управляла командами и сотрудничала с людьми, выросшими и работавшими в самых разных культурах.",
+    "aboutIntro": "Мой профессиональный путь связан с международным образованием: от преподавания и академического руководства до развития рынков, партнёрств и управления. Мне довелось работать с многонациональными командами и людьми с самым разным профессиональным и культурным опытом.",
     "aboutPortrait": "Мой путь проходил<br>между разными культурами.",
     "aboutPortraitTag": "Здесь будет профессиональный портрет",
-    "aboutP1": "Сначала я работала в преподавании, а затем перешла в международное образование, где занималась развитием рынков, стратегическими партнёрствами и управлением. Мне довелось работать с командами, партнёрами, студентами и семьями из разных стран.",
-    "aboutP2": "Этот путь помог мне узнать изнутри, как устроены международные организации, что стоит за планами продаж и управленческими решениями. Я руководила командами, развивала партнёрства и новые проекты и видела, насколько важны доверие, коммуникация и способность донести ценность своей работы.",
     "aboutP3": "В 2018 году я сама прошла через серьёзные перемены: переехала во Францию, продолжила обучение на программе MBA и начала выстраивать карьеру в другой профессиональной культуре. У меня не было готовой сети контактов, и многое пришлось осваивать заново. Именно тогда я по-настоящему почувствовала, насколько уверенность и ощущение собственной профессиональной ценности важны в период перемен.",
     "aboutP4": "В моей жизни были периоды профессиональной неопределённости. Я знаю, как утомляют сомнения и отсутствие быстрых результатов, особенно когда за плечами уже немалый опыт. Эти переживания повлияли на то, насколько внимательно я отношусь к ситуации каждого человека в коучинге.",
     "aboutNotes": [
@@ -652,7 +644,6 @@ const TEXT=
     "portraitNote": "МЕСТО ДЛЯ ПРОФЕССИОНАЛЬНОГО ПОРТРЕТА",
     "portraitCaption": "Личный и профессиональный опыт жизни в двух странах.",
     "careerEyebrow": "Профессиональный опыт",
-    "careerLead": "Два основных этапа: от преподавания и академического руководства к международному развитию в сфере образования.",
     "journey": [
       {
         "dates": "2005–2011",
@@ -670,10 +661,10 @@ const TEXT=
     "mobilityEyebrow": "Личный опыт перемен",
     "mobilityTitle": "Личный и профессиональный переход",
     "mobilityP1": "В 2018 году я переехала из России во Францию, чтобы продолжить образование на программе MBA в Grenoble École de Management. За плечами у меня уже был многолетний профессиональный опыт, но теперь предстояло научиться работать на другом языке, освоить новые правила деловой культуры и заново выстроить круг профессиональных контактов. Этот переход изменил привычные ориентиры и заставил меня по-новому взглянуть на своё место и профессиональную идентичность.",
-    "mobilityP2": "На собственном опыте я поняла, насколько непросто бывает подтвердить ценность своих знаний в новой среде, сохранять уверенность в условиях неопределённости и находить дальнейшее направление, когда привычные опоры исчезают. Этот опыт также повлиял на моё решение изучать профессиональный коучинг. Сегодня он помогает мне глубже понимать людей, которые проходят через значительные перемены — добровольные или вынужденные — и стремятся вновь обрести опору и определить собственный путь вперёд.",
+    "mobilityP2": "На собственном опыте я поняла, насколько непросто бывает подтвердить ценность своих знаний в новой среде, сохранять уверенность в условиях неопределённости и находить дальнейшее направление, когда привычные ориентиры исчезают. Этот переход заставил меня по-новому взглянуть на роль работы и профессиональной идентичности в период серьёзных перемен.",
     "practiceEyebrow": "Сегодня",
     "practiceTitle": "Что я привношу в коучинг",
-    "practiceP": "Опыт управления и развития международного бизнеса помогает мне понимать требования организаций и задачи, с которыми сталкиваются профессионалы. В коучинге я уделяю особое внимание внимательному слушанию, продуманным вопросам и ясной формулировке целей. На встречах мы подробно рассматриваем вашу ситуацию и возможности, которые вы хотите изучить.",
+    "practiceP": "Я знаю требования международных организаций, но также понимаю вопросы, которые возникают, когда сам проходишь через серьёзные перемены. Этот опыт помогает мне видеть профессиональный контекст вашей ситуации, не упуская из виду то, что важно именно для вас. В коучинге я опираюсь на внимательное слушание и вопросы, которые помогают вам прояснить приоритеты и принять собственные решения.",
     "credentialsK": "Образование и профессиональная подготовка",
     "credentialsTitle": "Qualifications",
     "academicK": "Высшее образование",
@@ -740,7 +731,7 @@ const TEXT=
 const HOME={
   "fr": {
     "eyebrow": "YULIA JACQUES · COACHING PROFESSIONNEL",
-    "headline": "Coaching professionnel pour <em>dirigeants, managers, entrepreneurs et professionnels.</em>",
+    "headline": "Coaching professionnel pour <em>dirigeants, managers, entrepreneurs et professionnels</em>",
     "fields": "Leadership international · Transitions professionnelles · Évolution de carrière",
     "lead": "J’accompagne individuellement les dirigeants, managers, entrepreneurs et professionnels lorsqu’ils prennent de nouvelles responsabilités, traversent un changement ou s’interrogent sur la suite de leur parcours.",
     "support": "Nos séances offrent un cadre confidentiel pour prendre du recul, examiner votre situation et avancer vers des décisions qui vous correspondent.",
@@ -861,20 +852,19 @@ function urlFor(page,hash=''){return ROUTES[page]+(language==='fr'?'':'?lang='+e
 const PACKAGE_PRICE=''; // Fill only when a public price for six sessions is confirmed.
 const BOOKING_URL='https://calendly.com/coach-yuliajacques'; // Your public Calendly booking page.
 const LINKEDIN_URL='https://www.linkedin.com/in/yulia-jacques';
-function navHeader(c){return `<header><div class="wrap head"><a class="brand" href="${urlFor('home')}" aria-label="Yulia Jacques"><span class="monogram">YJ</span><span><span class="brand-text">YULIA JACQUES</span><br><span class="brand-sub">${c.brandSub}</span></span></a><nav id="nav" class="main-nav" aria-label="Site navigation">${[['home',c.homeNav],['about',c.aboutNav],['coaching',c.coachingNav],['contact',c.contactNav]].map(([slug,label])=>`<a href="${urlFor(slug)}" class="${slug===PAGE?'active':''}" ${slug===PAGE?'aria-current="page"':''}>${label}</a>`).join('')}</nav><div class="langs" aria-label="Language"><button data-lang="fr" class="${language==='fr'?'active':''}" aria-label="Français">FR</button><button data-lang="en" class="${language==='en'?'active':''}" aria-label="English">EN</button><button data-lang="ru" class="${language==='ru'?'active':''}" aria-label="Русский">RU</button></div><a class="header-book-cta" href="${urlFor('contact','booking')}" aria-label="${e(c.book)}"><span class="header-book-full">${c.book}</span><span class="header-book-short">${c.headerShort}</span><span class="header-book-arrow" aria-hidden="true">↗</span></a><button id="menu" class="menu" type="button" aria-label="Menu" aria-expanded="false">☰</button></div></header>`}
+function navHeader(c){return `<header><div class="wrap head"><a class="brand" href="${urlFor('home')}" aria-label="Yulia Jacques"><span class="monogram">YJ</span><span><span class="brand-text">YULIA JACQUES</span><br><span class="brand-sub">${c.brandSub}</span></span></a><nav id="nav" class="main-nav" aria-label="Site navigation">${[['home',c.homeNav],['coaching',c.coachingNav],['about',c.aboutNav],['contact',c.contactNav]].map(([slug,label])=>`<a href="${urlFor(slug)}" class="${slug===PAGE?'active':''}" ${slug===PAGE?'aria-current="page"':''}>${label}</a>`).join('')}</nav><div class="langs" aria-label="Language"><button data-lang="fr" class="${language==='fr'?'active':''}" aria-label="Français">FR</button><button data-lang="en" class="${language==='en'?'active':''}" aria-label="English">EN</button><button data-lang="ru" class="${language==='ru'?'active':''}" aria-label="Русский">RU</button></div><a class="header-book-cta" href="${urlFor('contact','booking')}" aria-label="${e(c.book)}"><span class="header-book-full">${c.book}</span><span class="header-book-short">${c.headerShort}</span><span class="header-book-arrow" aria-hidden="true">↗</span></a><button id="menu" class="menu" type="button" aria-label="Menu" aria-expanded="false">☰</button></div></header>`}
 function footer(c){return `<footer class="footer-redesign" id="footer"><div class="wrap"><div class="footer-main"><div class="footer-brand"><strong class="brand-text">YULIA JACQUES</strong><p>${c.footerText}</p><div class="footer-social" aria-label="Contact et LinkedIn">
 <a class="footer-social-link" href="mailto:coach@yuliajacques.com" title="coach@yuliajacques.com" aria-label="${c.contactNav} — coach@yuliajacques.com"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
 <a class="footer-social-link" href="${LINKEDIN_URL}" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn — Yulia Jacques (nouvel onglet)"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="2"/><path d="M7.4 10.2v7.1m0-10v.1M11.3 17.3v-7.1m0 3a3 3 0 0 1 6 0v4.1"/></svg></a>
-</div><div class="language-note">FRANÇAIS · ENGLISH · РУССКИЙ</div></div><div class="footer-menu">${[['home',c.homeNav],['about',c.aboutNav],['coaching',c.coachingNav],['contact',c.contactNav]].map(([slug,label])=>`<a href="${urlFor(slug)}">${label}</a>`).join('')}</div></div><div class="footer-bottom">© ${new Date().getFullYear()} Yulia Jacques · <span>${c.brandSub}</span></div></div></footer>`}
+</div><div class="language-note">FRANÇAIS · ENGLISH · РУССКИЙ</div></div><div class="footer-menu">${[['home',c.homeNav],['coaching',c.coachingNav],['about',c.aboutNav],['contact',c.contactNav]].map(([slug,label])=>`<a href="${urlFor(slug)}">${label}</a>`).join('')}</div></div><div class="footer-bottom">© ${new Date().getFullYear()} Yulia Jacques · <span>${c.brandSub}</span></div></div></footer>`}
 function home(t,c){return `<section class="hero-multipage"><div class="wrap"><div class="hero-two"><div class="hero-copy"><h1>${c.headline}</h1><div class="hero-specialties">${c.fields}</div><p class="hero-lead">${c.lead}</p><p class="hero-detail">${c.support}</p><div class="actions"><a class="btn" href="${urlFor('contact','booking')}">${c.book} &nbsp;↗</a><a class="btn btn-secondary" href="${urlFor('coaching')}">${c.explore}</a></div></div><div class="hero-image-card"><img src="assets/yulia-jacques-portrait.jpg" alt="Yulia Jacques" fetchpriority="high" width="1200" height="1200"></div></div></div></section><section class="home-below"><div class="wrap"><div class="home-info"><div><h2>${c.aboutTitle}</h2><div class="home-about-copy">${c.aboutText.split('||').map(paragraph=>`<p>${paragraph}</p>`).join('')}</div><div class="actions" style="margin-top:18px"><a class="btn btn-secondary" href="${urlFor('about')}">${c.aboutNav} &nbsp;↗</a></div></div><div class="home-facts"><div class="home-fact"><strong>${c.fact1}</strong><span>${c.fact1sub}</span></div><div class="home-fact"><strong>${c.fact2}</strong><span>${c.fact2sub}</span></div><div class="home-fact"><strong>${c.fact3}</strong><span>${c.fact3sub}</span></div></div></div></div></section><section class="secondary-strip"><div class="wrap secondary-strip-inner"><div><h2>${c.stripTitle}</h2><p>${c.stripBody}</p></div><a class="btn" href="${urlFor('contact','booking')}">${c.stripCta} &nbsp;↗</a></div></section>`}
 function pageHeading(label,headline,description){return `<div class="page-hero page-hero-small"><div class="wrap"><div class="eyebrow">${label}</div><h1>${headline}</h1>${description?`<p class="lead">${description}</p>`:''}</div></div>`}
 function aboutPage(t,c){return `<div class="multipage-content"><section id="about" class="section about-section"><div class="wrap">
   <div class="about-intro-grid"><div>
    <div class="eyebrow">${t.aboutK}</div><h1 class="about-main-title">${t.aboutTitle}</h1>
    <p class="lead">${t.aboutIntro}</p>
-   <div class="about-prose"><p>${t.aboutP1}</p><p>${t.aboutP2}</p></div>
   </div><div class="about-visual about-photo"><img src="assets/yulia-jacques-portrait.jpg" alt="Yulia Jacques" loading="lazy"></div></div>
-  <div class="career-panel"><div class="eyebrow">${t.careerEyebrow}</div><p class="career-intro">${t.careerLead}</p>
+  <div class="career-panel"><div class="eyebrow">${t.careerEyebrow}</div>
   <div class="career-timeline">${t.journey.map((j,i)=>`<div class="career-milestone"><div class="career-year">${j.dates}</div><div class="career-marker"><span></span></div><div class="career-entry"><div class="career-entry-top"><h4>${j.brand}</h4><div class="career-role">${j.role}</div></div><p>${j.desc}</p></div></div>`).join('')}</div></div>
   <div class="life-panel"><div class="life-panel-side"><div class="eyebrow">${t.mobilityEyebrow}</div><div class="life-panel-year">2018</div><div class="life-panel-map">${t.mobilityEyebrow}</div></div><div class="life-panel-main"><h3>${t.mobilityTitle}</h3><p>${t.mobilityP1}</p><p>${t.mobilityP2}</p></div></div>
   <div class="coaching-bridge"><div><div class="eyebrow">${t.practiceEyebrow}</div><h3>${t.practiceTitle}</h3></div><div><p>${t.practiceP}</p><div class="about-langs">${t.aboutLanguages}</div></div></div>
