@@ -191,3 +191,449 @@ header{background:rgba(248,250,252,.97)}
 
 .linkedin-note{margin-top:18px;font-size:13px;color:var(--ink2)}
 .booking-extra-links{margin-top:10px;font-size:12px}.booking-extra-links a{color:var(--ink);border-bottom:1px solid #A7BBCD;padding-bottom:3px}
+
+/* Revision 05: contact and LinkedIn as quiet circular symbols in the footer. */
+.footer-social{display:flex;align-items:center;gap:12px;margin:21px 0 17px}
+.footer-social-link{display:inline-flex;justify-content:center;align-items:center;width:45px;height:45px;border-radius:50%;border:1px solid #B6C5D2;color:#364B60;background:rgba(255,255,255,.35);transition:background .2s,border-color .2s,transform .2s}
+.footer-social-link:hover{background:#E3ECF3;border-color:#829CB4;transform:translateY(-2px)}
+.footer-social-link:focus-visible{outline:2px solid #5C7790;outline-offset:3px}
+.footer-social-link svg{display:block;flex:none}
+.footer-redesign .footer-brand{max-width:430px}
+@media(max-width:650px){.footer-social{margin-top:19px}.footer-social-link{width:43px;height:43px}}
+
+
+/* REVISION 07 — richer editorial visual hierarchy, Temonis-inspired section contrast.
+   All original copy and existing booking flows are preserved. */
+:root{
+  --bg:#F9FAF9;
+  --paper:#FFFFFF;
+  --ink:#1E3547;
+  --ink2:#3E5769;
+  --accent:#BE6E4C;
+  --soft:#E7EFF2;
+  --line:#CBD6DC;
+  --navy:#172E40;
+  --navy2:#284F60;
+  --copper:#D58B67;
+  --ice:#EAF1F4;
+  --cream:#FAF5EF;
+}
+body{background:#F9FAF9;color:var(--ink)}
+p{color:#435768}
+header{background:#FFFFFF;box-shadow:0 3px 22px rgba(17,48,65,.06);border-bottom:1px solid #E3E9ED}
+.head{gap:19px;height:88px}
+.brand{min-width:176px}
+.monogram{border-color:#97AFBC;background:#EAF1F4;color:var(--navy)}
+.brand-text{color:var(--navy)}
+.brand-sub{color:#6B8492}
+.main-nav{gap:24px;margin-left:auto}
+.main-nav a{font-size:10px;letter-spacing:.12em;color:#3A5262}
+.main-nav a:hover,.main-nav a.active{color:#AF5F41}
+.main-nav a.active:after{background:#BD7753}
+.langs{flex-shrink:0}
+.langs button{color:#67808C}
+.langs button.active{color:#1B3D52;border-bottom:2px solid #C48062}
+.header-book-cta{display:inline-flex;align-items:center;justify-content:center;gap:10px;flex-shrink:0;padding:14px 16px;min-height:45px;background:var(--navy);color:#FFFFFF;border-radius:3px;font-size:10px;font-weight:760;letter-spacing:.015em;line-height:1.2;white-space:nowrap;transition:background .18s,transform .18s}
+.header-book-cta:hover{background:#AD6449;color:white;transform:translateY(-1px)}
+.header-book-arrow{font-size:15px;font-weight:400}
+.header-book-short{display:none}
+.btn{border-radius:3px;background:var(--navy);border-color:var(--navy);color:#fff}
+.btn:hover{background:#35596B;border-color:#35596B;color:#fff}
+.btn-secondary{background:transparent;border-color:#879EA9;color:var(--navy)}
+.btn-secondary:hover{background:#E4ECF0;border-color:#597584;color:var(--navy)}
+
+/* HERO: full-width deep blue opening, visibly distinct from the light editorial sections. */
+body[data-page="home"] .hero-multipage{position:relative;overflow:hidden;border-bottom:none;background:linear-gradient(118deg,#172E40 0%,#213F53 62%,#2C5866 100%);padding:79px 0 87px}
+body[data-page="home"] .hero-multipage:before{content:'';position:absolute;right:-130px;top:-250px;width:620px;height:620px;border:1px solid rgba(242,247,249,.12);border-radius:50%;pointer-events:none}
+body[data-page="home"] .hero-multipage:after{content:'';position:absolute;left:3%;bottom:0;height:5px;width:100px;background:#D9916E}
+body[data-page="home"] .hero-two{position:relative;z-index:1;gap:6%}
+body[data-page="home"] .hero-multipage h1{color:#FFFFFF;font-size:clamp(44px,4.6vw,65px)}
+body[data-page="home"] .hero-multipage h1 em{color:#F0B494;font-style:italic}
+body[data-page="home"] .hero-specialties{color:#F3B594;letter-spacing:.085em;font-weight:760}
+body[data-page="home"] .hero-multipage .hero-lead{color:#F0F4F5;font-size:19px}
+body[data-page="home"] .hero-multipage .hero-detail{color:#CDDDE4;font-size:15px}
+body[data-page="home"] .hero-multipage .btn{background:#E7A57D;border-color:#E7A57D;color:#182F40;font-weight:800}
+body[data-page="home"] .hero-multipage .btn:hover{background:#F4BB94;border-color:#F4BB94}
+body[data-page="home"] .hero-multipage .btn-secondary{background:transparent;color:white;border-color:#A8C0CA}
+body[data-page="home"] .hero-multipage .btn-secondary:hover{background:rgba(255,255,255,.12);border-color:#F6F9FA}
+body[data-page="home"] .hero-image-card{background:transparent;padding:0;border:0;min-height:510px;align-self:center;position:relative}
+body[data-page="home"] .hero-image-card:before{display:block;content:'';position:absolute;inset:18px -13px -13px 18px;background:#7094A2;border:none;z-index:0;border-radius:0}
+body[data-page="home"] .hero-image-card img{position:relative;z-index:1;min-height:510px;max-height:600px;aspect-ratio:1/1;object-fit:cover;object-position:center 30%;filter:none}
+
+/* Second section: bright white, with an attention-catching experience title and darker fact panel. */
+.home-below{background:#FFFFFF;padding:93px 0 103px;border-bottom:1px solid #DEE6E9}
+.home-info{grid-template-columns:1.12fr .88fr;gap:82px;align-items:center}
+.home-info h2{color:var(--navy);max-width:560px;font-size:clamp(32px,3.1vw,47px);line-height:1.16}
+.home-info h2:before{content:'';display:block;width:52px;height:5px;background:#D18C66;margin-bottom:25px}
+.home-info .home-about-copy p{color:#354C5C;font-size:15px;line-height:1.92}
+.home-info .home-about-copy p:first-child{font-weight:570}
+.home-info .actions{margin-top:28px!important}
+.home-facts{background:var(--navy);padding:28px 33px;display:grid;grid-template-columns:1fr;gap:0;align-self:center;box-shadow:12px 12px 0 #E4EEF2}
+.home-fact{min-height:auto;padding:15px 0 18px;border-top:1px solid rgba(255,255,255,.23)}
+.home-fact:first-child{border-top:0;padding-top:2px}
+.home-fact:last-child{padding-bottom:0}
+.home-fact strong{color:#F3B18C;font:normal 28px/1.25 var(--serif);margin:0 0 6px}
+.home-fact span{color:#D6E1E7;font-size:12.5px}
+.secondary-strip{background:#315D67;padding:60px 0 64px;border-top:5px solid #E1A17D}
+.secondary-strip h2{color:#FFFFFF;font-size:clamp(29px,3vw,39px)}
+.secondary-strip p{color:#E0EBEC;font-size:14.5px}
+.secondary-strip .btn{background:#E5A17A;color:#153043;border-color:#E5A17A;font-weight:780;min-height:51px}
+.secondary-strip .btn:hover{background:#F3BE9D;border-color:#F3BE9D;color:#153043}
+
+/* More legible contrast and clear modular hierarchy for interior pages. */
+.multipage-content .section{background:#FFFFFF}
+.multipage-content .eyebrow{color:#A95D43;font-weight:790}
+.multipage-content h1,.multipage-content h2,.multipage-content h3{color:var(--navy)}
+.multipage-content p,.multipage-content .lead{color:#3C5365}
+.multipage-content .section-primary-title{color:var(--navy)}
+.multipage-content .section-head>p{font-size:15px;line-height:1.8}
+.multipage-content .about-section{background:#FFFFFF}
+.about-section .about-intro-grid .lead{color:#243E52;font-weight:530}
+.about-section .career-panel{background:#EBF2F5;margin:94px -27px 0;padding:45px 38px 60px;border-top:5px solid #7898A7}
+.about-section .career-year{color:#995C43}
+.about-section .career-entry h4{color:#1C3A4B}
+.about-section .career-role{color:#476B7E}
+.about-section .career-entry p{color:#3B5363}
+.about-section .life-panel{background:#224557;margin-top:68px}
+.about-section .life-panel-side{background:#183447}
+.about-section .life-panel-main h3{color:#FFFFFF}
+.about-section .life-panel-main p{color:#E1EAED}
+.about-section .life-panel-year{color:#E2A783}
+.about-section .life-panel-map,.about-section .life-panel-side .eyebrow{color:#D9B39F}
+.about-section .life-panel-side:after{border-color:rgba(255,255,255,.16)}
+.about-section .coaching-bridge{border-bottom:2px solid #AFBFC6}
+.about-section .credentials-grids>div>h4{color:#A76248}
+.about-section .credential-number{color:#B56F52}
+
+/* Coaching: alternate meaningful color blocks to guide the eye through three long sections. */
+.multipage-content .offer-block{grid-template-columns:.73fr 1.27fr;gap:45px;border-top:0;border-left:5px solid #8DAAB7;padding:35px 33px 37px;background:#EDF3F5;margin:22px 0}
+.multipage-content .offer-block:nth-of-type(4){background:#FCF4EC;border-left-color:#D9906D}
+.multipage-content .offer-block:nth-of-type(5){background:#E4EEF1;border-left-color:#4E7E8C}
+.multipage-content .offer-block h3{font-size:clamp(28px,2.8vw,38px);color:#1E3749}
+.multipage-content .offer-block .num{font:italic 35px/1.1 var(--serif);color:#B57458}
+.multipage-content .offer-block .pill{background:#FFFFFF;border-color:#C0CDD2;color:#476474}
+.multipage-content .offer-block h4{color:#985E49;font-size:11px}
+.multipage-content .offer-description{color:#183B51;font-size:17px;font-weight:590}
+.multipage-content .situations-prose,.multipage-content .offer-why{color:#435766;line-height:1.81}
+.offer-media{margin:26px 0 0;overflow:hidden;background:#DCE7E9}
+.offer-media img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;transition:transform .3s ease}
+.offer-block:hover .offer-media img{transform:scale(1.025)}
+.multipage-content .process{background:#19374A;color:white}
+.multipage-content .process h4{color:#FFFFFF}
+.multipage-content .process p{color:#D9E6EB}
+.multipage-content .step{border-top:2px solid #C38A6E}
+.multipage-content .step-num{color:#E3AA85}
+.multipage-content .pricing-embed{margin-top:95px;padding:52px;background:#EBF2F5;border-top:5px solid #D08F70}
+.multipage-content .pricing-embed .pricing-grid{margin-top:30px}
+.multipage-content .pricing-embed .pricing-card{background:#FFFFFF;border-color:#CAD8DE}
+
+/* Calendar keeps its functional embed, with a more distinct introduction. */
+.multipage-content.booking-only-page .contact-section{background:linear-gradient(180deg,#E6EFF2 0px,#FFFFFF 325px)}
+.booking-only-page .booking-page-heading{max-width:825px}
+.booking-only-page .booking-page-heading h1{color:var(--navy)}
+.booking-only-page .booking-intro{background:#1F4458}
+.booking-only-page .booking-intro h2{color:#FFFFFF}
+.booking-only-page .booking-intro p,.booking-only-page .booking-details{color:#E5EEF1}
+.booking-only-page .booking-intro .eyebrow{color:#EBB18C}
+.booking-only-page .booking-details{border-color:#547385}
+.booking-only-page .booking-card--single{border-color:#CDDCE3;box-shadow:0 16px 44px rgba(19,49,65,.10)}
+
+/* Footer: high-contrast visual ending, same destinations as before. */
+.footer-redesign{background:#172D40;border-top:none;padding:52px 0 24px}
+.footer-redesign .footer-brand .brand-text{color:#FFFFFF}
+.footer-redesign .footer-brand p{color:#D2E0E6}
+.footer-redesign .footer-menu a{color:#E8F0F2}
+.footer-redesign .footer-menu a:hover{color:#F1B18B}
+.footer-redesign .language-note{color:#9AB6C3}
+.footer-redesign .footer-bottom{border-color:#38576A;color:#ABC1CB}
+.footer-redesign .footer-bottom span{color:#BFD0D8}
+.footer-redesign .footer-social-link{border-color:#55788A;color:#FFFFFF;background:#2A4B5F}
+.footer-redesign .footer-social-link:hover{background:#A9644C;border-color:#D18B6B;color:#FFFFFF}
+
+@media(max-width:1180px){
+ .head{gap:13px}
+ .main-nav{gap:17px}
+ .header-book-cta{padding:13px 14px}
+ .header-book-full{display:none}
+ .header-book-short{display:inline}
+}
+@media(max-width:980px){
+ .head{height:74px}
+ .main-nav{display:none;position:absolute;top:74px;left:0;right:0;background:#FFFFFF;border-bottom:1px solid #D6E2E7;padding:24px 30px;flex-direction:column;align-items:flex-start;gap:24px;box-shadow:0 12px 24px rgba(22,49,67,.09)}
+ .main-nav.open{display:flex}
+ .main-nav a{font-size:12px}
+ .menu{display:block;color:#18394D;order:4}
+ .header-book-cta{order:3}
+ .langs{margin-left:auto;order:2}
+ .brand{order:1}
+ .hero-two{grid-template-columns:1.15fr .85fr;gap:27px}
+ .home-info{gap:35px}
+}
+@media(max-width:720px){
+ .head{height:70px;gap:8px}
+ .main-nav{top:70px}
+ .brand{min-width:0}
+ .brand-sub{display:none}
+ .header-book-cta{min-height:41px;padding:10px 11px;font-size:10px}
+ .header-book-arrow{display:none}
+ .hero-two{grid-template-columns:1fr;gap:30px}
+ body[data-page="home"] .hero-multipage{padding:51px 0 48px}
+ body[data-page="home"] .hero-multipage h1{font-size:clamp(40px,10vw,54px)}
+ body[data-page="home"] .hero-image-card{margin:0;min-height:300px}
+ body[data-page="home"] .hero-image-card img{min-height:300px;max-height:430px;aspect-ratio:1.1;object-position:center 25%}
+ .home-below{padding:67px 0 75px}
+ .home-info{grid-template-columns:1fr;gap:33px}
+ .home-facts{max-width:none;grid-template-columns:1fr;padding:22px 26px;box-shadow:7px 7px 0 #E4EEF2}
+ .home-fact strong{font-size:25px}
+ .secondary-strip{padding:48px 0}
+ .multipage-content .offer-block{grid-template-columns:1fr;gap:20px;padding:27px 23px}
+ .offer-media{margin:18px 0 0;max-width:490px}
+ .multipage-content .pricing-embed{padding:31px 19px;margin-top:70px}
+ .about-section .career-panel{margin:50px 0 0;padding:30px 20px 43px}
+ .about-section .life-panel-main{padding:32px 24px}
+}
+@media(max-width:465px){
+ .head .monogram{display:none}
+ .brand-text{font-size:11px}
+ .brand{min-width:87px}
+ .langs{gap:1px}
+ .langs button{font-size:9px;padding:8px 3px}
+ .header-book-cta{padding:10px 9px;font-size:9px}
+ .header-book-full{display:none}
+ .header-book-short{display:inline}
+ .menu{font-size:22px;padding:4px}
+ .wrap{padding-left:19px;padding-right:19px}
+}
+
+/* FINAL EDITORIAL DIRECTION — from the chosen Option 01.
+   Ivory · ink navy · mineral blue · restrained terracotta. No coaching illustrations. */
+:root{--bg:#FCFBF8;--paper:#FFFFFF;--ink:#243C4E;--ink2:#536675;--accent:#B97154;--soft:#E9F1F3;--line:#D9E1E3;--navy:#1B3244;--copper:#B97154;--cream:#F5F1EC;--ice:#E9F1F3}
+body{background:var(--bg);color:var(--ink)}
+body p,.multipage-content p{color:#536675}
+.wrap{max-width:1230px;padding-left:39px;padding-right:39px}
+h1,h2,h3,.section-primary-title{letter-spacing:-.035em}
+header{background:white;border-bottom:1px solid #E7EBEC;box-shadow:none;backdrop-filter:none}
+.head{height:79px;gap:18px}
+.brand{min-width:182px}
+.monogram{display:none}
+.brand-text{font:600 20px/1.25 Georgia,'Times New Roman',serif;letter-spacing:-.025em;color:#183248}
+.brand-sub{font-size:9px;color:#748B98;letter-spacing:.09em}
+.main-nav{gap:24px}
+.main-nav a{font-size:10px;font-weight:740;color:#536575;letter-spacing:.12em}
+.main-nav a:hover,.main-nav a.active{color:#B97154}
+.main-nav a.active:after{background:#B97154;bottom:-8px}
+.langs button{color:#748A96}
+.langs button.active{color:#A9654D;border-color:#BA7656}
+.header-book-cta{background:#1B3244;color:white;border-radius:3px;font-size:10.5px;min-height:44px;padding:13px 15px}
+.header-book-cta:hover{background:#AE7053}
+.btn{border-radius:3px;background:#243C4E;border-color:#243C4E;color:white;min-height:47px;letter-spacing:.015em;font-size:11px}
+.btn:hover{background:#A7654E;border-color:#A7654E;color:white}
+.btn-secondary{background:transparent;border-color:#A1B0B9;color:#243C4E}
+.btn-secondary:hover{background:#E7EDF0;border-color:#718996;color:#243C4E}
+.eyebrow,.multipage-content .eyebrow{color:#AE6C51;font-weight:760;letter-spacing:.15em}
+/* Home: a distinctive cream editorial hero, the same restrained palette as Option 01. */
+body[data-page="home"] .hero-multipage{background:#F5F1EC;border-bottom:1px solid #E3D9D1;padding:80px 0 86px;overflow:visible}
+body[data-page="home"] .hero-multipage:before,body[data-page="home"] .hero-multipage:after{display:none}
+body[data-page="home"] .hero-two{grid-template-columns:1.05fr .95fr;gap:7.5%;align-items:center}
+body[data-page="home"] .hero-copy{max-width:660px}
+body[data-page="home"] .hero-multipage h1{color:#1B3244;font-size:clamp(41px,4.6vw,67px);margin:4px 0 26px;line-height:1.1}
+body[data-page="home"] .hero-multipage h1 em{color:#A9654D;font-style:normal}
+body[data-page="home"] .hero-specialties{font-size:11px;color:#A86A50;letter-spacing:.10em;font-weight:730;margin:0 0 22px}
+body[data-page="home"] .hero-multipage .hero-lead{font-size:18px;line-height:1.73;color:#274559}
+body[data-page="home"] .hero-multipage .hero-detail{font-size:15px;line-height:1.85;color:#5B6974}
+body[data-page="home"] .hero-multipage .btn{background:#B77558;border-color:#B77558;color:white;font-weight:760}
+body[data-page="home"] .hero-multipage .btn:hover{background:#A06149;border-color:#A06149;color:white}
+body[data-page="home"] .hero-multipage .btn-secondary{background:transparent;color:#243C4E;border-color:#9FAFB7}
+body[data-page="home"] .hero-multipage .btn-secondary:hover{background:#E9E3DE;color:#243C4E}
+body[data-page="home"] .hero-image-card{margin:0;background:transparent;padding:0;border:0;min-height:0}
+body[data-page="home"] .hero-image-card:before{display:none}
+body[data-page="home"] .hero-image-card img{height:auto;width:100%;max-height:570px;min-height:0;aspect-ratio:1/1;object-fit:cover;object-position:center 27%;border:0;box-shadow:none;filter:none}
+/* Strong intro, a spare three-column evidence line instead of the heavy card. */
+.home-below{background:#FFFFFF;padding:85px 0 90px;border-bottom:1px solid #E3E8EA}
+.home-info{display:grid;grid-template-columns:1.08fr .92fr;gap:9%;align-items:start}
+.home-info h2{font-size:clamp(33px,3.65vw,49px);line-height:1.16;color:#1B3244;margin:0 0 24px}
+.home-info h2:before{content:'';display:block;width:43px;height:3px;background:#BE7A5A;margin-bottom:24px}
+.home-info .home-about-copy p{font-size:14.5px;line-height:1.87;color:#4B6170;font-weight:400}
+.home-info .home-about-copy p:first-child{font-weight:450}
+.home-facts{background:transparent;box-shadow:none;padding:0;border-top:1px solid #CBD5D9;display:grid;grid-template-columns:1fr;align-self:start;gap:0}
+.home-fact,.home-fact:first-child,.home-fact:last-child{padding:22px 0;border-top:0;border-bottom:1px solid #CBD5D9;min-height:0}
+.home-fact strong{font:italic 28px/1.16 Georgia,serif;color:#B07155;margin:0 0 8px}
+.home-fact span{font-size:13px;line-height:1.65;color:#5F7380}
+.secondary-strip{background:#244A5B;border-top:none;padding:42px 0 47px}
+.secondary-strip h2{font-size:clamp(28px,3.1vw,37px);color:white}
+.secondary-strip p{font-size:14px;color:#D7E6EA;line-height:1.78}
+.secondary-strip .btn{background:#E6AF8E;color:#163345;border-color:#E6AF8E}
+.secondary-strip .btn:hover{background:#F4C0A0;border-color:#F4C0A0;color:#163345}
+/* About: editorial sections, photographic portrait without image effects. */
+.multipage-content .about-section{background:#FCFBF8;padding:76px 0 106px}
+.about-intro-grid{grid-template-columns:1.10fr .90fr;gap:7.5%;align-items:center}
+.multipage-content .about-main-title{font-size:clamp(40px,4vw,61px);line-height:1.13}
+.about-intro-grid .lead{font-size:17px;line-height:1.75;color:#324D5F;font-weight:450}
+.about-prose p{font-size:14.5px;line-height:1.87;color:#536675}
+.about-visual.about-photo{padding:0;background:transparent;min-height:0}
+.about-photo img{width:100%;min-height:0;height:auto;aspect-ratio:1/1;object-fit:cover;border:0;box-shadow:none}
+.about-section .career-panel{background:transparent;margin:80px 0 0;padding:65px 0 0;border-top:1px solid #C5D2D5}
+.career-panel .eyebrow{margin-bottom:13px}
+.career-intro{font-size:14.5px;max-width:725px;margin:14px 0 30px;line-height:1.84}
+.career-timeline{border-top:1px solid #CCD5D9}
+.career-milestone{grid-template-columns:156px 20px 1fr;gap:26px;padding:27px 0;min-height:132px;border-bottom:1px solid #CCD5D9}
+.about-section .career-year{font:italic 27px/1.4 Georgia,serif;color:#B27357;white-space:normal}
+.career-entry h4{font-size:28px;color:#1B3244}
+.career-entry p{font-size:14px;color:#536675;line-height:1.85}
+.career-role{font-size:11px;color:#647985}
+.career-marker:after{background:#CAD5D8}
+.career-marker span{border-color:#BD876D}
+.about-section .life-panel{background:#E9F1F3;margin-top:88px;grid-template-columns:.36fr .64fr}
+.about-section .life-panel-side{background:#DCE9ED;padding:48px 35px}
+.about-section .life-panel-year{color:#A56D55;font-size:92px;margin:35px 0 40px}
+.about-section .life-panel-map,.about-section .life-panel-side .eyebrow{color:#567485}
+.about-section .life-panel-main{padding:49px 60px}
+.about-section .life-panel-main h3{color:#1B3244;font-size:clamp(28px,3vw,41px)}
+.about-section .life-panel-main p{color:#465C6B;font-size:14.5px;line-height:1.88}
+.about-section .life-panel-side:after{border-color:rgba(255,255,255,.55)}
+.about-section .coaching-bridge{padding:87px 0 75px;border-bottom:1px solid #CAD5DA}
+.about-section .coaching-bridge h3{color:#1B3244;font-size:39px}
+.about-section .coaching-bridge p{color:#4F6371}
+.about-section .credentials-panel{padding-top:77px}
+.about-section .credentials-title{font-size:clamp(38px,4.2vw,59px)}
+.credentials-grids>div>h4,.credential-number{color:#AA6D52}
+.credentials-note{color:#71818B}
+.about-cta{margin-top:38px}
+/* Coaching option 01: typography and open rows, NO images and no tinted cards. */
+.editorial-coaching .coaching-intro{padding:87px 0 81px;background:#F5F1EC;border-bottom:1px solid #E2DAD3;scroll-margin-top:85px}
+.editorial-coaching .coaching-intro-grid{display:grid;grid-template-columns:1.07fr .93fr;gap:9%;align-items:end}
+.editorial-coaching .coaching-intro h1{font:400 clamp(45px,5.4vw,74px)/1.075 Georgia,serif;color:#1B3244;margin:19px 0 0;letter-spacing:-.048em}
+.editorial-coaching .coaching-intro-rule{height:1px;background:#BDC9CE;margin-top:36px}
+.editorial-coaching .coaching-intro-aside{border-left:1px solid #D5C8BD;padding-left:29px}
+.editorial-coaching .coaching-intro-aside p{font-size:17px;line-height:1.85;color:#526675;margin-bottom:23px}
+.editorial-coaching .coaching-offers{padding:32px 0 67px;background:#FCFBF8;scroll-margin-top:87px}
+.editorial-coaching .editorial-offer{display:grid;grid-template-columns:285px minmax(0,1fr);gap:67px;padding:66px 0 71px;border-bottom:1px solid #CBD5D8}
+.editorial-coaching .editorial-offer:first-child{border-top:1px solid #CBD5D8}
+.editorial-coaching .editorial-offer-no{font:italic 76px/1.1 Georgia,serif;display:block;color:#B88D7B;letter-spacing:-.07em;margin-bottom:12px}
+.editorial-coaching .editorial-offer-head .eyebrow{font-size:10px;margin-bottom:13px}
+.editorial-coaching .editorial-offer h2{font:400 clamp(32px,3.45vw,46px)/1.14 Georgia,serif;color:#1B3244;letter-spacing:-.046em;margin:0}
+.editorial-coaching .editorial-offer-intro{font:400 24px/1.46 Georgia,serif;color:#234456;margin-bottom:34px}
+.editorial-coaching .editorial-offer-detail{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 38px}
+.editorial-coaching .editorial-offer-sub.wide{grid-column:1/-1}
+.editorial-coaching .editorial-offer-sub h3{font:750 11px/1.5 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:#A56A50;margin:0 0 13px}
+.editorial-coaching .editorial-offer-sub p{font-size:14px;line-height:1.85;color:#536675;margin:0}
+.editorial-coaching .coaching-process{padding:91px 0 84px;background:#E9F1F3;scroll-margin-top:88px}
+.editorial-coaching .coaching-process h2{font-size:clamp(34px,3.9vw,49px);color:#1B3244;margin:14px 0 37px}
+.editorial-coaching .coaching-process-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
+.editorial-coaching .coaching-process-step{border-top:2px solid #BC795A;padding:19px 20px 0 0}
+.editorial-coaching .coaching-step-no{display:block;font:italic 31px/1.2 Georgia,serif;color:#B16E50;margin-bottom:20px}
+.editorial-coaching .coaching-process-step h3{font:400 25px/1.2 Georgia,serif;color:#1B3244;margin-bottom:16px}
+.editorial-coaching .coaching-process-step p{font-size:13.5px;line-height:1.83;color:#4D6471}
+.editorial-coaching .coaching-cta{padding:34px 0;background:#244A5B;color:white}
+.editorial-coaching .coaching-cta-inner{display:flex;justify-content:space-between;gap:28px;align-items:center}
+.editorial-coaching .coaching-cta h2{font-size:clamp(28px,3vw,36px);color:white;margin:0 0 12px}
+.editorial-coaching .coaching-cta p{color:#D7E6EA;font-size:14px;line-height:1.75;max-width:680px;margin:0}
+.editorial-coaching .coaching-cta .btn{background:#E6AF8E;border-color:#E6AF8E;color:#163345;flex-shrink:0}
+.editorial-coaching .coaching-fees{padding:93px 0 104px;background:#F8F6F2;scroll-margin-top:88px}
+.editorial-coaching .coaching-fees-intro{max-width:790px;margin:15px 0 38px}
+.editorial-coaching .coaching-fees-intro h2{font-size:clamp(34px,3.7vw,49px);color:#1B3244;margin:0 0 17px}
+.editorial-coaching .coaching-fees-intro p{font-size:15px;line-height:1.8;max-width:705px}
+.editorial-coaching .coaching-fees-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:23px}
+.editorial-coaching .editorial-fee{padding:36px;border:1px solid #D6E1E5;background:white;display:flex;flex-direction:column;min-height:340px}
+.editorial-coaching .editorial-fee:nth-child(2){border-top:4px solid #BE7655}
+.editorial-coaching .editorial-fee h3{font:400 33px/1.2 Georgia,serif;color:#1B3244;margin:18px 0 15px}
+.editorial-coaching .editorial-fee .fee-meta{font-size:12.5px;color:#6C8390;font-weight:690;margin:0 0 18px}
+.editorial-coaching .editorial-fee p{font-size:14px;line-height:1.8;color:#536675}
+.editorial-coaching .editorial-fee .fee-bottom{margin-top:auto;padding-top:25px}
+/* Booking: same warm hero, calm details and unobstructed functional Calendly calendar. */
+.multipage-content.booking-only-page .contact-section{background:#FCFBF8;padding:82px 0 116px}
+.booking-only-page .booking-page-heading{margin-bottom:42px}
+.booking-only-page .booking-page-heading .eyebrow{margin-bottom:14px}
+.booking-only-page .booking-page-heading h1{color:#1B3244;font-size:clamp(42px,5vw,63px)}
+.booking-only-page .booking-page-heading .lead{color:#536675;font-size:16px}
+.booking-only-page .booking-card--single{border:1px solid #D3DFE1;box-shadow:none;background:white}
+.booking-only-page .booking-intro{background:#E9F1F3;padding:31px 40px}
+.booking-only-page .booking-intro h2{color:#1B3244}
+.booking-only-page .booking-intro p{color:#536675}
+.booking-only-page .booking-intro .eyebrow{color:#A7654E}
+.booking-only-page .booking-details{border-color:#C4D1D6;color:#354E5D}
+.booking-only-page .booking-frame,.booking-only-page .booking-direct{background:white}
+.booking-only-page .booking-direct a{color:#244A5B}
+/* Dark footer is the last contrast anchor and carries both contact symbols. */
+.footer-redesign{background:#1B3244;border-top:none;padding:55px 0 27px}
+.footer-redesign .footer-brand .brand-text{color:white}
+.footer-redesign .footer-brand p{color:#C9D8DF}
+.footer-redesign .footer-menu a{color:#DBE6EA}
+.footer-redesign .footer-menu a:hover{color:#E6AF8E}
+.footer-redesign .language-note{color:#A3B9C3}
+.footer-redesign .footer-bottom{border-color:#3B5767;color:#A8BCC6}
+.footer-redesign .footer-bottom span{color:#BBCCD4}
+.footer-redesign .footer-social-link{border-color:#657F8B;color:white;background:#29465A}
+.footer-redesign .footer-social-link:hover{background:#A7654E;border-color:#D79A78;color:white}
+@media(max-width:1040px){
+ .editorial-coaching .editorial-offer{grid-template-columns:220px minmax(0,1fr);gap:38px}
+ .head{gap:10px}
+ .main-nav{gap:15px}
+}
+@media(max-width:980px){
+ .main-nav{display:none;position:absolute;top:74px;left:0;right:0;background:white;border-bottom:1px solid #E3E9EB;padding:24px 30px;flex-direction:column;align-items:flex-start;gap:23px;box-shadow:0 14px 24px rgba(22,49,67,.08)}
+ .main-nav.open{display:flex}
+ .menu{display:block}
+ .head{height:74px}
+}
+@media(max-width:720px){
+ .wrap{padding:0 22px}
+ .head{height:70px}
+ .main-nav{top:70px}
+ .brand{min-width:0}
+ .brand-text{font-size:18px}
+ .brand-sub{display:none}
+ .header-book-cta{font-size:10px;padding:10px}
+ body[data-page="home"] .hero-multipage{padding:55px 0 63px}
+ body[data-page="home"] .hero-two{grid-template-columns:1fr;gap:35px}
+ body[data-page="home"] .hero-multipage h1{font-size:clamp(38px,9.5vw,53px)}
+ body[data-page="home"] .hero-multipage .hero-lead{font-size:17px}
+ body[data-page="home"] .hero-image-card img{max-height:420px;min-height:0;aspect-ratio:1.1/1;object-position:center 30%}
+ .home-below{padding:67px 0}
+ .home-info{grid-template-columns:1fr;gap:28px}
+ .home-facts{grid-template-columns:1fr}
+ .home-fact strong{font-size:26px}
+ .secondary-strip{padding:39px 0}
+ .about-intro-grid,.about-section .life-panel{grid-template-columns:1fr}
+ .about-visual.about-photo{margin-top:25px}
+ .about-photo img{max-height:460px}
+ .about-section .career-panel{padding-top:45px;margin-top:55px}
+ .career-milestone{grid-template-columns:90px 12px minmax(0,1fr);gap:11px}
+ .about-section .career-year{font-size:17px}
+ .career-entry h4{font-size:22px}
+ .about-section .life-panel-side{padding:24px 28px}
+ .about-section .life-panel-year{font-size:65px;margin:10px 0}
+ .about-section .life-panel-main{padding:35px 28px}
+ .about-section .coaching-bridge,.credentials-grids{grid-template-columns:1fr}
+ .editorial-coaching .coaching-intro{padding:56px 0}
+ .editorial-coaching .coaching-intro-grid{grid-template-columns:1fr;gap:27px}
+ .editorial-coaching .coaching-intro h1{font-size:clamp(42px,9vw,57px)}
+ .editorial-coaching .coaching-intro-aside{border-left:none;border-top:1px solid #D5C8BD;padding:21px 0 0}
+ .editorial-coaching .coaching-offers{padding:24px 0 55px}
+ .editorial-coaching .editorial-offer{grid-template-columns:1fr;gap:17px;padding:43px 0 48px}
+ .editorial-coaching .editorial-offer-no{font-size:55px;margin-bottom:3px}
+ .editorial-coaching .editorial-offer h2{font-size:clamp(32px,7vw,42px)}
+ .editorial-coaching .editorial-offer-intro{font-size:21px}
+ .editorial-coaching .editorial-offer-detail{grid-template-columns:1fr;gap:22px}
+ .editorial-coaching .editorial-offer-sub.wide{grid-column:auto}
+ .editorial-coaching .coaching-process{padding:63px 0}
+ .editorial-coaching .coaching-process-grid{grid-template-columns:1fr;gap:22px}
+ .editorial-coaching .coaching-cta-inner{display:block}
+ .editorial-coaching .coaching-cta .btn{margin-top:23px}
+ .editorial-coaching .coaching-fees{padding:66px 0}
+ .editorial-coaching .coaching-fees-grid{grid-template-columns:1fr}
+ .editorial-coaching .editorial-fee{min-height:0;padding:28px}
+ .booking-only-page .booking-intro{padding:25px 23px}
+ .booking-only-page .booking-page-heading{text-align:left}
+ .booking-only-page .booking-page-heading h1{font-size:40px}
+ .footer-redesign .footer-main{display:block}
+ .footer-menu{justify-content:flex-start;margin-top:27px}
+}
+@media(max-width:420px){
+ .head .monogram{display:none}
+ .brand-text{font-size:16px}
+ .brand{min-width:0}
+ .head{gap:7px}
+ .langs button{font-size:9px;padding:6px 3px}
+ .header-book-cta{font-size:9px;min-height:39px;padding:9px 8px}
+}
