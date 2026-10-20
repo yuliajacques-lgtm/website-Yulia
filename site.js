@@ -57,17 +57,17 @@ const TEXT=
       [
         "01",
         "Un premier échange",
-        "Nous parlons de votre situation, de vos attentes et de ce que vous aimeriez retirer du coaching. C’est aussi l’occasion de vérifier si mon approche vous convient."
+        "Nous échangeons sur votre situation, les difficultés que vous rencontrez et, surtout, ce que vous souhaitez voir changer concrètement. Ce premier rendez-vous permet de comprendre vos attentes, d’évaluer si le coaching est adapté à votre besoin et de vérifier si ma façon de travailler vous convient."
       ],
       [
         "02",
-        "Des objectifs définis ensemble",
-        "Nous précisons le sujet de travail et choisissons quelques repères concrets pour observer ce qui évolue au fil des séances."
+        "Des objectifs et des indicateurs de changement",
+        "Nous traduisons votre intention initiale en objectifs précis et définissons les résultats que vous souhaitez atteindre. Ensemble, nous identifions les comportements à faire évoluer et les indicateurs concrets qui permettront de mesurer vos progrès et de constater les changements dans votre quotidien professionnel."
       ],
       [
         "03",
-        "Des séances et des mises en pratique",
-        "Nous explorons vos façons de voir la situation, vos ressources et les choix possibles. Entre les séances, vous pouvez expérimenter des actions qui ont du sens pour vous."
+        "Mettre en œuvre et ancrer le changement",
+        "Comprendre une situation ne suffit pas à la transformer. Notre travail ne s’arrête ni à la prise de conscience ni à la définition d’un plan d’action. Nous explorons ce qui freine le changement, les habitudes qui se répètent et les ressources sur lesquelles vous pouvez vous appuyer pour agir autrement. Entre les séances, vous mettez en pratique de nouvelles façons d’agir. Nous examinons ensuite ce qui évolue, ce qui résiste et ce qui reste à ajuster, avec un objectif : ancrer des changements concrets et durables dans votre vie professionnelle."
       ]
     ],
     "offersCta": "Réserver un appel découverte gratuit",
@@ -307,17 +307,17 @@ const TEXT=
       [
         "01",
         "An initial conversation",
-        "We discuss your situation and expectations and consider whether coaching is the right kind of support for you."
+        "We discuss your situation, the challenges you are facing and, above all, what you would like to see change in practical terms. This first conversation helps us understand your expectations, assess whether coaching is the right approach and see whether my way of working suits you."
       ],
       [
         "02",
-        "Agreeing on objectives",
-        "We identify the questions you want to work on and decide how you will recognise progress over time."
+        "Clear objectives and indicators of change",
+        "We turn your initial intentions into specific objectives and clarify the results you want to achieve. Together, we identify the behaviours you would like to change and tangible indicators that will help us assess progress and recognise meaningful differences in your professional life."
       ],
       [
         "03",
-        "Reflection and practice",
-        "During our conversations, we look at your perspectives, resources and choices. Between sessions, you may try out ideas and actions that feel relevant to you."
+        "Putting change into practice — and making it last",
+        "Understanding a situation is not the same as changing it. Our work goes beyond insight or an action plan. We explore what holds change back, the patterns that keep repeating and the resources you can draw on to act differently. Between sessions, you put new approaches into practice. We then review what is changing, where resistance remains and what needs adjusting, with the aim of establishing concrete, lasting changes in your professional life."
       ]
     ],
     "offersCta": "Book a free introductory call",
@@ -486,7 +486,19 @@ const TEXT=
     ],
     "pricingSecondCta": "Discuss the programme on a free call",
     "pricingFooter": "Online booking is for the complimentary introductory call. Programme arrangements are agreed before coaching begins.",
-    "pricingNavCta": "View fees and format"
+    "pricingNavCta": "View fees and format",
+    "pricingSectionK": "Fees and format",
+    "pricingSectionTitle": "How the coaching programme works",
+    "pricingSectionLead": "We start with a complimentary discovery call. If we agree to work together, I offer a programme of six individual coaching sessions.",
+    "pricingSectionDiscoveryTitle": "Discovery call",
+    "pricingSectionDiscoveryMeta": "30 minutes · Complimentary · By phone",
+    "pricingSectionDiscoveryBody": "A first conversation to get acquainted, discuss your situation and answer your questions about coaching.",
+    "pricingSectionPackTitle": "Coaching programme",
+    "pricingSectionPackMeta": "6 sessions of 60 minutes",
+    "pricingSectionPackBody": "Each session is tailored to your objectives. After every session, you receive a written summary of the key points and next steps. Sessions are available online or in person.",
+    "pricingSectionPrice": "Fee available on request",
+    "linkedinLabel": "LinkedIn",
+    "linkedinText": "You can also find my professional profile on LinkedIn."
   },
   "ru": {
     "meta": "Профессиональный коучинг в международной среде",
@@ -544,18 +556,18 @@ const TEXT=
     "steps": [
       [
         "01",
-        "Первое знакомство",
-        "Мы поговорим о вашей ситуации и ожиданиях, а также определим, подходит ли вам коучинг."
+        "Первая встреча",
+        "Мы обсуждаем вашу ситуацию, трудности, с которыми вы сталкиваетесь, и прежде всего то, что вы хотели бы изменить на практике. Эта встреча помогает прояснить ваши ожидания, понять, подходит ли коучинг для вашего запроса, и определить, комфортен ли вам мой подход к работе."
       ],
       [
         "02",
-        "Определение целей",
-        "Мы вместе сформулируем запрос и договоримся, по каким признакам вы сможете замечать изменения."
+        "Цели и показатели изменений",
+        "Мы переводим ваш первоначальный запрос в конкретные цели и определяем, каких результатов вы хотите достичь. Вместе выделяем модели поведения, которые важно изменить, и наблюдаемые показатели, по которым можно будет оценивать прогресс и замечать реальные изменения в вашей профессиональной жизни."
       ],
       [
         "03",
-        "Встречи и практика",
-        "На встречах мы исследуем разные взгляды на ситуацию, ваши ресурсы и возможные решения. Между встречами можно пробовать новые способы действия."
+        "Воплотить изменения в жизнь и закрепить их",
+        "Понять ситуацию ещё не значит изменить её. Наша работа не ограничивается осознанием проблемы или составлением плана действий. Мы исследуем, что мешает переменам, какие привычные сценарии повторяются и на какие ресурсы вы можете опереться, чтобы действовать по-новому. Между сессиями вы пробуете новые способы поведения на практике. Затем мы разбираем, что меняется, где возникает сопротивление и что стоит скорректировать, чтобы конкретные изменения стали устойчивой частью вашей профессиональной жизни."
       ]
     ],
     "offersCta": "Записаться на бесплатный звонок",
@@ -724,11 +736,25 @@ const TEXT=
     ],
     "pricingSecondCta": "Обсудить программу на первом звонке",
     "pricingFooter": "Через календарь можно записаться на бесплатный ознакомительный звонок. Условия программы мы согласуем до начала коучинга.",
-    "pricingNavCta": "Стоимость и формат"
+    "pricingNavCta": "Стоимость и формат",
+    "pricingSectionK": "Стоимость и условия",
+    "pricingSectionTitle": "Формат коучингового сопровождения",
+    "pricingSectionLead": "Мы начинаем с бесплатного ознакомительного звонка. Если решаем работать вместе, я предлагаю программу из шести индивидуальных коучинговых сессий.",
+    "pricingSectionDiscoveryTitle": "Ознакомительный звонок",
+    "pricingSectionDiscoveryMeta": "30 минут · Бесплатно · По телефону",
+    "pricingSectionDiscoveryBody": "Первая беседа, чтобы познакомиться, обсудить вашу ситуацию и ответить на вопросы о коучинге.",
+    "pricingSectionPackTitle": "Программа коучинга",
+    "pricingSectionPackMeta": "6 сессий по 60 минут",
+    "pricingSectionPackBody": "Каждая сессия строится с учётом ваших целей. После каждой встречи вы получаете письменное резюме ключевых выводов и следующих шагов. Сессии проходят онлайн или очно.",
+    "pricingSectionPrice": "Стоимость по запросу",
+    "linkedinLabel": "LinkedIn",
+    "linkedinText": "Мой профессиональный профиль также можно посмотреть на LinkedIn."
   }
-};
+}
+;
 
-const HOME={
+const HOME=
+{
   "fr": {
     "eyebrow": "YULIA JACQUES · COACHING PROFESSIONNEL",
     "headline": "Coaching professionnel pour <em>dirigeants, managers, entrepreneurs et professionnels</em>",
@@ -768,7 +794,7 @@ const HOME={
   },
   "en": {
     "eyebrow": "YULIA JACQUES · PROFESSIONAL COACHING",
-    "headline": "Professional coaching for <em>leaders, managers, entrepreneurs and experienced professionals.</em>",
+    "headline": "Professional coaching for <em>leaders, managers, entrepreneurs and experienced professionals</em>",
     "fields": "International leadership · Career transitions · Professional growth",
     "lead": "I work individually with leaders, managers, entrepreneurs and professionals when they take on new responsibilities, navigate professional change or reflect on the next chapter of their careers.",
     "support": "Our sessions provide a confidential space to step back, explore your situation and work towards decisions that feel right for you.",
@@ -805,7 +831,7 @@ const HOME={
   },
   "ru": {
     "eyebrow": "YULIA JACQUES · ПРОФЕССИОНАЛЬНЫЙ КОУЧИНГ",
-    "headline": "Профессиональный коучинг для <em>руководителей, менеджеров, предпринимателей и специалистов.</em>",
+    "headline": "Профессиональный коучинг для <em>руководителей, менеджеров, предпринимателей и специалистов</em>",
     "fields": "Лидерство в международной среде · Карьерные перемены · Профессиональное развитие",
     "lead": "Я провожу индивидуальные коучинговые сессии для руководителей, менеджеров, предпринимателей и специалистов, которые берут на себя новые обязанности, проходят через профессиональные изменения или размышляют о следующем этапе карьеры.",
     "support": "Наши встречи — это конфиденциальное пространство, где можно взглянуть на ситуацию со стороны, разобраться в своих вопросах и найти решения, которые подходят именно вам.",
@@ -840,7 +866,8 @@ const HOME={
     "pageContact": "Связаться со мной",
     "contactNote": "Сессии проводятся на русском, английском и французском языках онлайн или очно."
   }
-};
+}
+;
 
 const PAGE = document.body.dataset.page || 'home';
 const params = new URLSearchParams(location.search);

@@ -25,3 +25,10 @@ Le site public n'est pas automatiquement mis à jour en générant ces fichiers.
 Révision page À propos : un seul paragraphe introductif, chronologie 2005–2011 / 2012–2026, transition en France, apport au coaching. Trois langues actualisées.
 
 Révision : ordre de navigation Accueil / Accompagnements / À propos / Contact, dans le menu et le pied de page ; suppression du point final du titre français de la page d'accueil.
+
+
+MISE A JOUR 20 OCTOBRE 2026
+- Textes de coaching orientés changement et résultats en FR / EN / RU.
+- Section « Format de l'accompagnement » traduite en EN et RU.
+- Points terminaux retirés des titres HOME anglais et russe.
+- Il faut publier les fichiers du ZIP dans le dossier GitHub Pages; le ZIP seul ne met pas le site en ligne.
