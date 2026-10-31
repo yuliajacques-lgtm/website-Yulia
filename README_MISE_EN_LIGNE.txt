@@ -1,34 +1,35 @@
-YULIA JACQUES — SITE EDITORIAL FINAL (FR / EN / RU)
+YULIA JACQUES — MISE À JOUR DU SITE (31 OCTOBRE 2026)
 
-FICHIERS
-- index.html / about.html / coaching.html / contact.html : pages du site
-- styles.css / site.js : feuille de style et contenu trilingue
-- assets/yulia-jacques-portrait.jpg : portrait du site
-- tarifs.html : redirection vers coaching.html#format (ancien lien)
+PROBLÈME CORRIGÉ
+Le site public affiche encore l'ancien widget Calendly et la mention "par téléphone".
+Cette version retire Calendly, remplace la réservation par le lien Google Agenda
+et indique clairement Google Meet (30 min) et les langues FR / EN / RU.
 
-Ouvrez index.html depuis le dossier complet, ou publiez tous les fichiers en conservant leur arborescence.
-Les pages autonomes HTML sont fournies séparément pour l'aperçu hors ligne.
+LIEN DE RÉSERVATION
+https://calendar.app.google/RwhKF2XNBLoir8R66
 
-RÉSERVATION
-Calendly déjà lié : https://calendly.com/coach-yuliajacques
-Le widget nécessite une connexion Internet et peut dépendre des préférences cookies / anti-tracking du navigateur.
+COMMENT PUBLIER SUR GITHUB PAGES
+1. Ouvrez le dépôt GitHub QUI ALIMENTE yuliajacques.com.
+2. Dans Settings > Pages, vérifiez la branche et le répertoire source (racine / ou /docs).
+3. Dans ce répertoire SOURCE, remplacez au minimum "site.js" et "styles.css"
+   par les fichiers présents dans cette archive. Pour mettre tout le site à jour,
+   remplacez également index.html, coaching.html, about.html, contact.html et
+   tarifs.html, et les fichiers à l'intérieur du dossier assets.
+4. NE PAS déposer le fichier ZIP ni le dossier "yulia_jacques_publication_2026_10_31"
+   comme sous-dossier dans le dépôt. Il faut téléverser LE CONTENU du dossier.
+5. Conserver tout fichier CNAME, .nojekyll, et la configuration GitHub Pages.
+6. Cliquez sur "Commit changes"; contrôlez Actions / Pages si nécessaire.
+7. Ouvrez https://yuliajacques.com/contact.html?lang=fr#booking, faites
+   Cmd+Shift+R (Mac) ou ouvrez une fenêtre privée. Vérifiez la disparition
+   du logo Calendly et la présence du bouton "Google Agenda".
+8. Faites une réservation d'essai : le formulaire Google doit demander la langue.
 
-COORDONNÉES
-mailto:coach@yuliajacques.com
-https://www.linkedin.com/in/yulia-jacques
+DIAGNOSTIC SI L'ANCIEN MODULE RESTE EN PLACE
+Dans GitHub, ouvrez "site.js" dans le répertoire publié : cherchez "Calendly".
+Il ne doit plus être présent. Cherchez "BOOKING_URL" : il doit contenir
+"https://calendar.app.google/RwhKF2XNBLoir8R66".
+Si c'est correct sur GitHub mais pas sur yuliajacques.com, vérifiez
+Settings > Pages (branche/répertoire), Actions > dernier déploiement,
+puis faites un rafraîchissement forcé de la page.
 
-NOTE
-Aucune illustration sur la page Accompagnements. La seule photographie est ton portrait, sur Accueil et À propos.
-Mentions légales, confidentialité et conditions d'accompagnement non ajoutées, conformément à la demande. Vérifier les obligations applicables avant publication.
-Le site public n'est pas automatiquement mis à jour en générant ces fichiers.
-
-Révision page À propos : un seul paragraphe introductif, chronologie 2005–2011 / 2012–2026, transition en France, apport au coaching. Trois langues actualisées.
-
-Révision : ordre de navigation Accueil / Accompagnements / À propos / Contact, dans le menu et le pied de page ; suppression du point final du titre français de la page d'accueil.
-
-
-MISE A JOUR 20 OCTOBRE 2026
-- Textes de coaching orientés changement et résultats en FR / EN / RU.
-- Section « Format de l'accompagnement » traduite en EN et RU.
-- Points terminaux retirés des titres HOME anglais et russe.
-- Il faut publier les fichiers du ZIP dans le dossier GitHub Pages; le ZIP seul ne met pas le site en ligne.
+La génération de ces fichiers ne publie rien automatiquement.

@@ -646,3 +646,46 @@ body[data-page="about"] .about-photo img{max-height:445px;object-fit:cover}
 body[data-page="about"] .career-panel{margin-top:61px;padding-top:52px}
 body[data-page="about"] .career-timeline{margin-top:23px}
 @media(max-width:650px){body[data-page="about"] .about-visual.about-photo{max-width:100%;justify-self:stretch}body[data-page="about"] .about-photo img{max-height:400px}body[data-page="about"] .career-panel{margin-top:49px;padding-top:37px}}
+
+/* Intégration du planning officiel Google Agenda dans la page Contact. */
+.booking-only-page .booking-frame{height:auto;min-height:0;display:block;background:#FDFBF7}
+.booking-only-page .google-booking-panel{display:flex;flex-direction:column;align-items:center;text-align:center;justify-content:center;padding:58px 25px 50px;gap:0;min-height:365px;background:linear-gradient(135deg,#FBFAF7,#E9F1F3)}
+.booking-only-page .google-booking-calendar-icon{width:66px;height:66px;display:flex;align-items:center;justify-content:center;border-radius:50%;color:#244A5B;background:#E1E9EA;margin-bottom:21px}
+.booking-only-page .google-booking-panel h3{font:400 clamp(29px,3.5vw,40px)/1.18 Georgia,serif;color:#1B3244;margin:0 0 15px}
+.booking-only-page .google-booking-panel p{color:#536675;line-height:1.75;font-size:15px;max-width:535px;margin:0 0 26px}
+.booking-only-page .google-booking-button{display:inline-flex;background:#244A5B;border-color:#244A5B;color:#fff;align-items:center;justify-content:center;text-decoration:none}
+.booking-only-page .google-booking-button:hover{background:#1B3244;color:#fff}
+.booking-only-page .google-booking-note{font-size:12px;line-height:1.6;color:#6B7B86;margin-top:17px}
+.booking-only-page .google-calendar-iframe{width:100%;min-height:790px;height:790px;border:0;display:block;background:#fff}
+.booking-only-page .booking-direct{border-top:1px solid #E5EAEA}
+@media(max-width:720px){.booking-only-page .google-booking-panel{padding:45px 20px 40px;min-height:0}.booking-only-page .google-calendar-iframe{min-height:800px;height:800px}}
+
+.booking-only-page .booking-direct[hidden]{display:none!important}
+
+/* Iframe Google Agenda : garder une hauteur suffisante pour les créneaux et formulaires. */
+.booking-only-page .booking-frame{overflow:hidden;width:100%}
+.booking-only-page .google-calendar-iframe{display:block;border:0;width:100%;height:790px;min-height:790px}
+.booking-only-page .booking-direct{padding-top:16px;padding-bottom:24px}
+@media(max-width:650px){.booking-only-page .google-calendar-iframe{height:825px;min-height:825px}}
+
+
+/* 2026-10-27: distinguish website-language navigation from coaching session languages. */
+body[data-page="home"] .hero-languages{display:flex;flex-wrap:wrap;gap:7px 15px;align-items:center;border-left:3px solid #B77558;padding:7px 0 8px 13px;margin:0 0 23px;line-height:1.45}
+.hero-languages-title{font:600 13px/1.45 var(--sans);color:#1B3244}
+.hero-languages-list{font:700 11px/1.5 var(--sans);letter-spacing:.06em;color:#A9654D;white-space:nowrap}
+body[data-page="home"] .hero-multipage .hero-languages-expl{font-size:12px;color:#5F707B;line-height:1.65;margin:12px 0 0;max-width:560px}
+.editorial-coaching .coaching-intro-aside .coaching-language-notice{margin:20px 0 20px;border-left:2px solid #B77558;padding:7px 0 7px 15px;font-size:13px;line-height:1.7;color:#284A5A;font-weight:570}
+/* A separate language band below the booking summary keeps the original flex layout intact. */
+.booking-only-page .booking-language-statement{display:flex;justify-content:space-between;align-items:center;gap:22px;background:#FAF6F2;border-top:1px solid #E3DDD6;padding:22px 40px}
+.booking-only-page .booking-language-copy{display:flex;flex-direction:column;gap:4px;max-width:630px}
+.booking-only-page .booking-language-statement strong{font:400 24px/1.25 Georgia,serif;color:#1B3244}
+.booking-only-page .booking-language-statement span{font:400 13px/1.65 var(--sans);color:#586B79}
+.booking-only-page .booking-language-statement .booking-language-names{flex-shrink:0;font:750 11px/1.6 var(--sans);letter-spacing:.04em;color:#A7654E}
+@media(max-width:900px){body[data-page="home"] .hero-languages{margin-bottom:19px} .hero-languages-list{white-space:normal}}
+@media(max-width:650px){body[data-page="home"] .hero-languages{display:block;padding:4px 0 5px 12px;margin:0 0 20px} .hero-languages-title,.hero-languages-list{display:block} .hero-languages-list{margin-top:3px} .booking-only-page .booking-language-statement{padding:22px 23px;display:block}.booking-only-page .booking-language-statement strong{font-size:22px}.booking-only-page .booking-language-statement .booking-language-names{display:block;margin-top:9px}}
+
+/* 2026-10-30: language preference visible before opening the verified Google booking form. */
+.booking-only-page .booking-language-guide{display:block;margin-top:8px;font-size:13px;line-height:1.65;color:#476373}
+.booking-only-page .google-booking-panel{min-height:420px}
+.booking-only-page .google-booking-button{max-width:100%;text-align:center}
+@media(max-width:720px){.booking-only-page .booking-language-guide{font-size:12.5px}.booking-only-page .google-booking-panel{min-height:330px}}

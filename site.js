@@ -47,7 +47,7 @@ const TEXT=
     "aboutTraining": "Formation au coaching professionnel à l’IFOD, en cours. Séances proposées en français, anglais et russe.",
     "offersK": "Les accompagnements",
     "offersTitle": "Trois domaines de coaching",
-    "offersIntro": "Je propose trois domaines de coaching qui correspondent aux questions que rencontrent les professionnels dans leur parcours. Les séances sont adaptées à votre situation et aux objectifs que nous définissons ensemble.",
+    "offersIntro": "Que vous dirigiez une équipe, développiez votre propre activité ou traversiez une transition professionnelle, le coaching part de votre situation et des changements que vous souhaitez mettre en œuvre. Voici trois domaines possibles d’accompagnement.",
     "forWhom": "À qui cela s’adresse",
     "workOn": "Ce que nous pouvons explorer",
     "why": "Pourquoi ce sujet est important",
@@ -76,7 +76,7 @@ const TEXT=
     "pricingSectionTitle": "Le format de l’accompagnement",
     "pricingSectionLead": "Le coaching commence par un appel découverte gratuit. Si nous décidons de travailler ensemble, je propose ensuite un parcours de six séances individuelles.",
     "pricingSectionDiscoveryTitle": "Appel découverte",
-    "pricingSectionDiscoveryMeta": "30 minutes · Gratuit · Par téléphone",
+    "pricingSectionDiscoveryMeta": "30 minutes · Gratuit · En visioconférence (Google Meet)",
     "pricingSectionDiscoveryBody": "Un premier échange pour faire connaissance, parler de votre situation et répondre à vos questions sur le coaching.",
     "pricingSectionPackTitle": "Parcours de coaching",
     "pricingSectionPackMeta": "6 séances de 60 minutes",
@@ -98,17 +98,21 @@ const TEXT=
     "bookingK": "Prendre rendez-vous",
     "bookingTitle": "Un premier échange de 30 minutes",
     "bookingBody": "Cet appel est gratuit et sans engagement. Il nous permettra de faire connaissance et de voir si un accompagnement pourrait répondre à vos besoins.",
-    "bookingDuration": "30 minutes · Gratuit · Par téléphone",
+    "bookingDuration": "30 minutes · Gratuit · En visioconférence (Google Meet)",
     "bookingLang": "En français, anglais ou russe",
     "bookingCta": "Voir les disponibilités",
-    "bookingPreviewTitle": "Calendrier de réservation Calendly",
-    "bookingPreviewText": "Le module est prêt à afficher vos disponibilités et à permettre la réservation d’un appel découverte.",
-    "bookingSetup": "Connexion à finaliser : ajoutez votre lien public Google Agenda ou Calendly dans la configuration du site.",
-    "bookingOpen": "Ouvrir mon Calendly",
+    "bookingPreviewTitle": "Prise de rendez-vous Google Agenda",
+    "bookingPreviewText": "Choisissez un horaire disponible directement dans mon planning Google Agenda.",
+    "bookingSetup": "La réservation s’effectue sur la page Google Agenda sécurisée.",
+    "bookingOpen": "Ouvrir la réservation Google Agenda",
+    "googleBookingTitle": "Choisissez votre créneau dans Google Agenda",
+    "googleBookingDescription": "Vous accéderez à mes disponibilités et pourrez confirmer votre appel découverte gratuit de 30 minutes.",
+    "googleBookingCta": "Voir les créneaux disponibles",
+    "googleBookingNote": "La réservation s’ouvre sur Google Agenda dans un nouvel onglet.",
     "bookingHeroCta": "Réserver un appel gratuit",
     "contactK": "Contact",
     "contactTitle": "Réserver un appel découverte",
-    "contactLead": "Choisissez un créneau dans mon agenda pour un premier échange téléphonique gratuit de 30 minutes. Nous parlerons de votre situation, de vos attentes et de vos questions sur le coaching.",
+    "contactLead": "Choisissez un créneau dans mon agenda pour un premier échange gratuit de 30 minutes sur Google Meet. Nous parlerons de votre situation, de vos attentes et de vos questions sur le coaching.",
     "contactAsideK": "Avant de commencer",
     "contactAsideTitle": "Vous préférez m’écrire ?",
     "contactAsideBody": "Décrivez brièvement votre situation ou posez-moi votre question. Je pourrai ainsi mieux comprendre ce qui vous amène.",
@@ -150,18 +154,18 @@ const TEXT=
         "topics": "Nous pouvons notamment aborder votre posture de manager, votre communication avec des interlocuteurs de cultures différentes, la façon dont vous présentez vos résultats et votre capacité à faire entendre votre point de vue."
       },
       {
-        "title": "Transitions et changements professionnels",
-        "short": "Traverser une période de changement, qu’elle soit choisie ou imposée, en retrouvant des repères et une capacité à agir.",
-        "why": "Une perte d’emploi, une restructuration ou un changement de pays peuvent remettre en question bien plus qu’un poste. Il faut parfois redéfinir sa place, retrouver confiance ou accepter une période sans réponse immédiate. Les transformations technologiques, notamment celles liées à l’intelligence artificielle, peuvent également amener à reconsidérer son métier et ses perspectives.",
-        "who": "Je m’adresse ici aux professionnels qui traversent un licenciement ou une réorganisation, à ceux qui changent de pays ou d’entreprise, ainsi qu’aux managers, dirigeants ou entrepreneurs qui doivent s’adapter à une évolution importante de leur activité.",
-        "topics": "Le travail peut porter sur votre confiance, votre rapport à l’incertitude, la façon dont vous voyez votre expérience et les décisions que vous souhaitez prendre pour la suite."
+        "title": "Transitions et évolution professionnelles",
+        "short": "Traverser un changement, choisi ou subi, ou préparer une nouvelle étape de son parcours avec plus de clarté et de confiance.",
+        "why": "Un licenciement, une réorganisation, une mobilité internationale ou une évolution de ses responsabilités peuvent remettre en question ses repères. Mais une réflexion peut aussi naître d’une envie de changement : prendre une autre direction, retrouver du sens dans son travail ou repenser la place que l’on souhaite donner à son activité. Pour un entrepreneur, il peut s’agir de redéfinir son rôle ou d’aborder une nouvelle étape de développement de son entreprise.",
+        "who": "Cet accompagnement s’adresse aux managers, dirigeants, entrepreneurs et professionnels qui vivent une transition ou souhaitent faire évoluer leur parcours : changement de poste, reconversion, mobilité, prise de responsabilités ou transformation de leur activité.",
+        "topics": "Nous explorons ce que ce changement représente pour vous, les repères que vous souhaitez conserver ou faire évoluer, les freins à vos décisions et les pistes qui méritent d’être examinées. Nous travaillons aussi sur les premiers pas concrets pour avancer dans la direction choisie."
       },
       {
-        "title": "Évolution et orientation de carrière",
-        "short": "Faire le point sur son parcours et réfléchir à la direction que l’on souhaite lui donner à ce moment de sa vie.",
-        "why": "Les questions sur la suite de sa carrière peuvent apparaître à différents moments. On peut souhaiter prendre davantage de responsabilités, retrouver de l’intérêt dans son travail ou revoir ses priorités après une naissance ou un changement familial. Dans un parcours international, ces décisions impliquent parfois plusieurs pays et plusieurs cultures professionnelles.",
-        "who": "Cet accompagnement s’adresse aux cadres qui envisagent une nouvelle étape, aux professionnels internationaux qui hésitent entre différentes possibilités, aux entrepreneurs qui souhaitent prendre du recul sur leur trajectoire, ainsi qu’aux jeunes talents qui souhaitent mieux comprendre leurs motivations et leurs priorités.",
-        "topics": "Nous explorons ce qui vous motive aujourd’hui, ce que vous souhaitez préserver ou changer, la manière dont vous définissez la réussite et les options qui méritent d’être examinées."
+        "title": "Efficacité professionnelle et gestion des priorités",
+        "short": "Retrouver de la clarté dans ses priorités, faire évoluer sa manière de travailler et consacrer davantage de temps et d’énergie aux actions qui comptent réellement.",
+        "why": "À force de répondre aux urgences, on peut perdre de vue les sujets importants. Pour un manager, cela peut se traduire par des sollicitations constantes, des difficultés à déléguer ou à poser des limites. Pour un entrepreneur, la gestion quotidienne peut prendre toute la place, au détriment du développement de son activité. Dans les deux cas, il ne s’agit pas seulement de mieux organiser son agenda, mais de comprendre ce qui empêche d’agir autrement.",
+        "who": "Cet accompagnement s’adresse aux managers, dirigeants et entrepreneurs qui portent de nombreuses responsabilités, se sentent dispersés ou surchargés, ou peinent à avancer sur leurs priorités malgré leurs efforts. Il est aussi ouvert aux professionnels qui souhaitent retrouver davantage de maîtrise dans leur quotidien.",
+        "topics": "Nous explorons votre rapport au temps, les décisions que vous repoussez, la difficulté à déléguer ou à dire non, les habitudes qui entretiennent la surcharge et les freins au passage à l’action. Entre les séances, vous expérimentez de nouvelles façons de fonctionner, puis nous examinons ce qui change concrètement et ce qui reste à ajuster."
       }
     ],
     "contactProcess": "Nous pourrons ensuite convenir d’un échange pour parler plus précisément de votre situation et déterminer si le coaching correspond à votre besoin. Ce premier contact ne vous engage à rien.",
@@ -232,7 +236,7 @@ const TEXT=
     "pricingFree": "Gratuit",
     "pricingFirstTitle": "Appel découverte",
     "pricingFirstMetric": "30 min",
-    "pricingFirstMeta": "Par téléphone",
+    "pricingFirstMeta": "En visioconférence (Google Meet)",
     "pricingFirstBody": "Un temps pour présenter votre situation, poser vos questions et voir si le coaching correspond à vos attentes.",
     "pricingFirstCta": "Réserver un appel gratuit",
     "pricingSecondK": "02 / Accompagnement individuel",
@@ -297,7 +301,7 @@ const TEXT=
     "aboutTraining": "Currently training as a professional coach at IFOD. Coaching conversations in English, French and Russian.",
     "offersK": "Coaching",
     "offersTitle": "Three areas of coaching",
-    "offersIntro": "I offer coaching in three areas that reflect challenges people face at different stages of their careers. The focus of each engagement depends on your circumstances and the objectives we agree on together.",
+    "offersIntro": "Whether you lead a team, run your own business or are navigating a professional transition, coaching starts with your specific situation and the changes you want to make. These are three possible areas of focus.",
     "forWhom": "Who it is for",
     "workOn": "What we might explore",
     "why": "Why it matters",
@@ -336,17 +340,21 @@ const TEXT=
     "bookingK": "Book a call",
     "bookingTitle": "A 30-minute introductory conversation",
     "bookingBody": "This first call is free, with no obligation. It is an opportunity to get acquainted and see whether coaching could be right for you.",
-    "bookingDuration": "30 minutes · Free · By phone",
+    "bookingDuration": "30 minutes · Free · Google Meet video call",
     "bookingLang": "In English, French or Russian",
     "bookingCta": "See available times",
-    "bookingPreviewTitle": "Calendly booking calendar",
-    "bookingPreviewText": "This section is ready to display your availability and let visitors book an introductory call.",
-    "bookingSetup": "One final setup step: add your public Google Calendar or Calendly booking link in the site configuration.",
-    "bookingOpen": "Open my Calendly page",
+    "bookingPreviewTitle": "Google Calendar appointment booking",
+    "bookingPreviewText": "Choose an available time directly on my Google Calendar booking page.",
+    "bookingSetup": "Appointments are booked on Google Calendar’s booking page.",
+    "bookingOpen": "Open Google Calendar booking",
+    "googleBookingTitle": "Choose a time in Google Calendar",
+    "googleBookingDescription": "View my available times and book your complimentary 30-minute discovery call.",
+    "googleBookingCta": "View available times",
+    "googleBookingNote": "The Google Calendar booking page opens in a new tab.",
     "bookingHeroCta": "Book a free introductory call",
     "contactK": "Contact",
     "contactTitle": "Book an introductory call",
-    "contactLead": "Choose a time in my calendar for a complimentary 30-minute phone call. We can discuss your professional situation, your expectations and any questions you have about coaching.",
+    "contactLead": "Choose a time in my calendar for a complimentary 30-minute video call on Google Meet. We can discuss your professional situation, your expectations and any questions you have about coaching.",
     "contactAsideK": "Getting started",
     "contactAsideTitle": "Prefer to write?",
     "contactAsideBody": "Share a little about your professional situation or the question you would like to discuss. A few lines are enough to begin.",
@@ -388,18 +396,18 @@ const TEXT=
         "topics": "We might explore how you lead, communicate across cultures, make your contribution visible and speak up in situations where you do not yet feel fully established."
       },
       {
-        "title": "Career Transitions and Change",
-        "short": "Find your bearings and regain confidence when work changes, whether that change is welcome or unexpected.",
-        "why": "Redundancy, restructuring or moving abroad can unsettle much more than a job title. You may need to rebuild confidence and make choices before the future is clear. Technology, including artificial intelligence, is also changing some roles and prompting professionals to reconsider how their skills might evolve.",
-        "who": "I work with professionals facing job loss or organisational change, those relocating or moving to a different organisation, and managers, leaders or entrepreneurs adapting to significant changes in their field or business.",
-        "topics": "We can look at your sense of professional identity, how you respond to uncertainty, the value you place on your experience and the steps you would like to take next."
+        "title": "Career Transitions and Development",
+        "short": "Navigate change, whether chosen or unexpected, or prepare for the next stage of your professional journey with greater clarity and confidence.",
+        "why": "Redundancy, restructuring, an international move or new responsibilities can unsettle familiar reference points. Sometimes the desire for change comes from within: exploring a different direction, finding renewed purpose or reconsidering what you want from your work. For entrepreneurs, this may involve redefining their role or moving the business into a new stage of development.",
+        "who": "For managers, senior leaders, entrepreneurs and professionals navigating a transition or considering their next step: a new role, career change, relocation, greater responsibility or a transformation of their business.",
+        "topics": "We explore what this change means to you, what you want to retain or rethink, what may be holding back your decisions and which possibilities deserve attention. We also identify practical first steps to move forward in your chosen direction."
       },
       {
-        "title": "Career Development and Direction",
-        "short": "Take stock of where you are and decide what you want from the next stage of your professional life.",
-        "why": "Questions about the next stage of a career can arise at many different times. You may be looking for greater responsibility, more satisfaction in your work or a different balance after becoming a parent or experiencing a change in family circumstances. An international career can add decisions about countries and professional cultures to the picture.",
-        "who": "This coaching is for experienced managers considering their next move, international professionals weighing different opportunities and younger professionals looking to understand their motivations and direction.",
-        "topics": "We can discuss what motivates you now, what you would like to keep or change, what success means to you and which opportunities are worth considering."
+        "title": "Professional Effectiveness and Priorities",
+        "short": "Get clear on your priorities, change how you work and devote more time and energy to what genuinely matters.",
+        "why": "When each day is driven by urgent demands, important work can get pushed aside. For managers, this may mean constant interruptions, difficulty delegating or setting boundaries. For entrepreneurs, day-to-day operations may consume the time needed to grow their business. In either case, the challenge is not simply to manage a calendar better, but to understand what makes changing established patterns so difficult.",
+        "who": "For managers, senior leaders and entrepreneurs who carry significant responsibility, feel overloaded or pulled in too many directions, or struggle to make progress on their priorities despite their efforts. It can also benefit professionals who want more control over how they work.",
+        "topics": "We explore your relationship with time, decisions you postpone, challenges around delegation and boundaries, recurring patterns of overload and what gets in the way of taking action. Between sessions, you try different ways of working; together, we review what actually changes and what still needs adjusting."
       }
     ],
     "contactProcess": "We can then arrange a conversation to discuss your situation in more detail and see whether coaching is appropriate. There is no obligation to continue.",
@@ -470,7 +478,7 @@ const TEXT=
     "pricingFree": "Complimentary",
     "pricingFirstTitle": "Introductory call",
     "pricingFirstMetric": "30 min",
-    "pricingFirstMeta": "By phone",
+    "pricingFirstMeta": "Google Meet video call",
     "pricingFirstBody": "Tell me about your situation, ask any questions and find out whether coaching would be a good fit for you.",
     "pricingFirstCta": "Book a free call",
     "pricingSecondK": "02 / Individual coaching",
@@ -491,7 +499,7 @@ const TEXT=
     "pricingSectionTitle": "How the coaching programme works",
     "pricingSectionLead": "We start with a complimentary discovery call. If we agree to work together, I offer a programme of six individual coaching sessions.",
     "pricingSectionDiscoveryTitle": "Discovery call",
-    "pricingSectionDiscoveryMeta": "30 minutes · Complimentary · By phone",
+    "pricingSectionDiscoveryMeta": "30 minutes · Complimentary · Google Meet video call",
     "pricingSectionDiscoveryBody": "A first conversation to get acquainted, discuss your situation and answer your questions about coaching.",
     "pricingSectionPackTitle": "Coaching programme",
     "pricingSectionPackMeta": "6 sessions of 60 minutes",
@@ -547,7 +555,7 @@ const TEXT=
     "aboutTraining": "Прохожу обучение профессиональному коучингу в IFOD. Провожу встречи на русском, английском и французском языках.",
     "offersK": "Коучинг",
     "offersTitle": "Три направления работы",
-    "offersIntro": "Я выделяю три направления коучинга, связанные с вопросами, которые возникают на разных этапах профессиональной жизни. Содержание встреч зависит от вашей ситуации и целей, которые мы определяем вместе.",
+    "offersIntro": "Независимо от того, руководите ли вы командой, развиваете собственный бизнес или переживаете профессиональные перемены, коучинг строится вокруг вашей ситуации и тех изменений, которых вы хотите достичь. Вот три основных направления работы.",
     "forWhom": "Кому это подходит",
     "workOn": "Что мы можем обсудить",
     "why": "Почему это важно",
@@ -586,17 +594,21 @@ const TEXT=
     "bookingK": "Запись на встречу",
     "bookingTitle": "Первая встреча — 30 минут",
     "bookingBody": "Первая встреча бесплатна и ни к чему вас не обязывает. Мы сможем познакомиться и понять, будет ли коучинг подходящим форматом для вашего запроса.",
-    "bookingDuration": "30 минут · Бесплатно · По телефону",
+    "bookingDuration": "30 минут · Бесплатно · Видеовстреча в Google Meet",
     "bookingLang": "На русском, французском или английском",
     "bookingCta": "Посмотреть свободное время",
-    "bookingPreviewTitle": "Календарь записи Calendly",
-    "bookingPreviewText": "Этот раздел готов показывать свободное время и принимать записи на первую беседу.",
-    "bookingSetup": "Осталось добавить публичную ссылку для записи из Google Календаря или Calendly в настройки сайта.",
-    "bookingOpen": "Открыть Calendly",
+    "bookingPreviewTitle": "Запись через Google Календарь",
+    "bookingPreviewText": "Выберите удобное свободное время на моей странице записи в Google Календаре.",
+    "bookingSetup": "Запись проходит на странице Google Календаря.",
+    "bookingOpen": "Открыть запись в Google Календаре",
+    "googleBookingTitle": "Выберите время в Google Календаре",
+    "googleBookingDescription": "Посмотрите свободные интервалы и запишитесь на бесплатную ознакомительную беседу продолжительностью 30 минут.",
+    "googleBookingCta": "Посмотреть свободное время",
+    "googleBookingNote": "Страница записи в Google Календаре откроется в новой вкладке.",
     "bookingHeroCta": "Записаться на бесплатный звонок",
     "contactK": "Контакты",
     "contactTitle": "Записаться на ознакомительную встречу",
-    "contactLead": "Выберите удобное время в календаре для бесплатного 30-минутного телефонного разговора. Мы обсудим вашу профессиональную ситуацию, ожидания и вопросы о коучинге.",
+    "contactLead": "Выберите удобное время для бесплатной 30-минутной видеовстречи в Google Meet. Мы обсудим вашу профессиональную ситуацию, ожидания и вопросы о коучинге.",
     "contactAsideK": "Перед началом",
     "contactAsideTitle": "Удобнее написать?",
     "contactAsideBody": "Коротко расскажите о своей профессиональной ситуации или задайте вопрос. Нескольких предложений будет достаточно.",
@@ -638,18 +650,18 @@ const TEXT=
         "topics": "Мы можем работать над вашей управленческой позицией, общением с коллегами из разных стран, умением представлять свои результаты и отстаивать точку зрения."
       },
       {
-        "title": "Профессиональные переходы и перемены",
-        "short": "Находить опору и возвращать уверенность в период перемен, которых вы ждали или к которым оказались не готовы.",
-        "why": "Увольнение, реорганизация или переезд в другую страну могут затронуть не только работу, но и ощущение собственной профессиональной ценности. Иногда приходится принимать решения, не имея ясного представления о будущем. Развитие технологий, в том числе искусственного интеллекта, тоже заставляет задумываться о том, как будет меняться профессия.",
-        "who": "Я работаю с теми, кто столкнулся с потерей работы или изменениями в компании, переезжает в другую страну, переходит в новую организацию, а также с руководителями и предпринимателями, которые адаптируются к серьёзным изменениям в своей роли или деятельности.",
-        "topics": "Мы можем обсудить уверенность в себе, отношение к неопределённости, ценность накопленного опыта и возможные следующие шаги."
+        "title": "Профессиональные перемены и развитие карьеры",
+        "short": "Пройти через перемены — желанные или неожиданные — либо подготовиться к следующему этапу профессиональной жизни с большей ясностью и уверенностью.",
+        "why": "Увольнение, реорганизация, переезд в другую страну или новые обязанности могут изменить привычные ориентиры. Но желание перемен может возникнуть и по собственной инициативе: хочется выбрать другое направление, вернуть интерес к работе или пересмотреть профессиональные приоритеты. Для предпринимателя это может означать переосмысление своей роли или переход бизнеса на новый этап развития.",
+        "who": "Для руководителей, предпринимателей и специалистов, которые проходят через профессиональные изменения или задумываются о следующем шаге: смене должности, новой профессии, переезде, расширении ответственности или преобразовании собственного бизнеса.",
+        "topics": "Мы исследуем, что для вас означают эти перемены, какие ориентиры важно сохранить или пересмотреть, что мешает принимать решения и какие возможности стоит рассмотреть. Также намечаем конкретные первые шаги в выбранном направлении."
       },
       {
-        "title": "Развитие карьеры и выбор направления",
-        "short": "Посмотреть на пройденный путь и понять, каким вы хотите видеть следующий этап профессиональной жизни.",
-        "why": "Вопросы о дальнейшем развитии карьеры возникают на разных этапах жизни. Иногда хочется взять на себя более сложные задачи, найти больше интереса в работе или изменить приоритеты после рождения ребёнка и других семейных перемен. В международной карьере к этому добавляется выбор между странами и профессиональными культурами.",
-        "who": "Это направление подходит опытным руководителям, которые задумываются о следующем шаге, международным специалистам, рассматривающим разные возможности, предпринимателям, которые хотят переосмыслить дальнейшее развитие, и молодым профессионалам, которые хотят лучше понять свои мотивы и приоритеты.",
-        "topics": "Мы исследуем, что вас мотивирует сегодня, что хочется сохранить или изменить, как вы понимаете успех и какие возможности действительно стоит рассмотреть."
+        "title": "Эффективность в работе и управление приоритетами",
+        "short": "Определить действительно важные приоритеты, изменить привычные способы работы и направлять больше времени и энергии на то, что приносит результат.",
+        "why": "Когда день заполнен срочными делами, на важные задачи часто не остаётся времени. Руководителю могут мешать постоянные обращения сотрудников, сложности с делегированием и установлением границ. У предпринимателя повседневные операционные вопросы могут вытеснять развитие бизнеса. В обоих случаях дело не только в планировании времени, но и в привычках и внутренних барьерах, которые мешают действовать иначе.",
+        "who": "Для руководителей, управленцев и предпринимателей, на которых лежит много ответственности, которые чувствуют перегрузку, распыляются между задачами или с трудом продвигаются в важных направлениях. Это сопровождение также подходит специалистам, желающим лучше управлять своим рабочим временем и вниманием.",
+        "topics": "Мы исследуем отношение ко времени, откладываемые решения, трудности с делегированием и отказом, повторяющиеся причины перегрузки и препятствия на пути к действию. Между сессиями вы пробуете новые способы работы, а затем мы вместе анализируем реальные изменения и то, что ещё нужно скорректировать."
       }
     ],
     "contactProcess": "Затем мы сможем договориться о встрече, чтобы подробнее обсудить вашу ситуацию и понять, подходит ли вам коучинг. Эта беседа ни к чему вас не обязывает.",
@@ -720,7 +732,7 @@ const TEXT=
     "pricingFree": "Бесплатно",
     "pricingFirstTitle": "Ознакомительный звонок",
     "pricingFirstMetric": "30 мин",
-    "pricingFirstMeta": "По телефону",
+    "pricingFirstMeta": "Видеовстреча в Google Meet",
     "pricingFirstBody": "Вы сможете рассказать о своей ситуации, задать вопросы и понять, подходит ли вам мой формат работы.",
     "pricingFirstCta": "Записаться на бесплатный звонок",
     "pricingSecondK": "02 / Индивидуальный коучинг",
@@ -741,7 +753,7 @@ const TEXT=
     "pricingSectionTitle": "Формат коучингового сопровождения",
     "pricingSectionLead": "Мы начинаем с бесплатного ознакомительного звонка. Если решаем работать вместе, я предлагаю программу из шести индивидуальных коучинговых сессий.",
     "pricingSectionDiscoveryTitle": "Ознакомительный звонок",
-    "pricingSectionDiscoveryMeta": "30 минут · Бесплатно · По телефону",
+    "pricingSectionDiscoveryMeta": "30 минут · Бесплатно · Видеовстреча в Google Meet",
     "pricingSectionDiscoveryBody": "Первая беседа, чтобы познакомиться, обсудить вашу ситуацию и ответить на вопросы о коучинге.",
     "pricingSectionPackTitle": "Программа коучинга",
     "pricingSectionPackMeta": "6 сессий по 60 минут",
@@ -758,13 +770,20 @@ const HOME=
   "fr": {
     "eyebrow": "YULIA JACQUES · COACHING PROFESSIONNEL",
     "headline": "Coaching professionnel pour <em>dirigeants, managers, entrepreneurs et professionnels</em>",
-    "fields": "Leadership international · Transitions professionnelles · Évolution de carrière",
-    "lead": "J’accompagne individuellement les dirigeants, managers, entrepreneurs et professionnels lorsqu’ils prennent de nouvelles responsabilités, traversent un changement ou s’interrogent sur la suite de leur parcours.",
+    "fields": "Leadership international · Transitions professionnelles · Priorités et efficacité",
+    "lead": "J’accompagne les dirigeants, managers, entrepreneurs et professionnels qui souhaitent développer leur leadership, traverser un changement ou faire évoluer leur manière de travailler et de décider.",
     "support": "Nos séances offrent un cadre confidentiel pour prendre du recul, examiner votre situation et avancer vers des décisions qui vous correspondent.",
     "book": "Réserver un appel découverte gratuit",
     "explore": "Découvrir les accompagnements",
     "caption": "Yulia Jacques · Coaching professionnel",
     "tagline": "En français · English · По-русски",
+    "langHeroTitle": "Votre coaching, dans la langue de votre choix",
+    "langHeroList": "Français · English · Русский",
+    "langHeroExpl": "L’appel découverte et les séances se déroulent dans la langue qui vous convient.",
+    "langCoachingNote": "Tous mes accompagnements sont proposés en français, en anglais ou en russe. Vous choisissez la langue de nos échanges.",
+    "langBookingTitle": "Choisissez la langue de votre échange",
+    "langBookingDescription": "L’appel découverte et les séances de coaching peuvent se dérouler en français, en anglais ou en russe.",
+    "langBookingFormHint": "Après avoir choisi un créneau, indiquez la langue souhaitée dans le formulaire de réservation Google Agenda.",
     "aboutTitle": "Une expérience concrète du monde professionnel international",
     "aboutText": "Diriger des équipes multiculturelles, répondre à des objectifs exigeants, évoluer dans des organisations complexes ou traverser des changements professionnels : je connais ces réalités de l’intérieur, après plus de quinze ans dans des environnements internationaux.||Cette expérience me permet de comprendre la complexité de votre contexte professionnel, sans perdre de vue ce qui vous est propre. En coaching, elle nourrit mon écoute et mon questionnement pour vous aider à prendre du recul, explorer de nouvelles perspectives et avancer dans vos propres choix.",
     "fact1": "15+ ans",
@@ -784,8 +803,8 @@ const HOME=
     "headerShort": "Réserver",
     "linkedinNav": "LinkedIn",
     "brandSub": "Leadership & carrière · Coaching professionnel",
-    "footerText": "Coaching professionnel individuel · Leadership international, transitions et carrière.",
-    "meta": "Coaching professionnel pour les cadres et managers, leadership international et transitions de carrière. Découvrez mon parcours et réservez un appel gratuit de 30 minutes.",
+    "footerText": "Coaching professionnel individuel · Leadership international, transitions, priorités et efficacité.",
+    "meta": "Coaching professionnel pour dirigeants, managers, entrepreneurs et professionnels : leadership international, transitions, efficacité et gestion des priorités.",
     "pageAbout": "Mon parcours",
     "pageCoaching": "Mes accompagnements",
     "pagePricing": "Tarifs & modalités",
@@ -795,13 +814,20 @@ const HOME=
   "en": {
     "eyebrow": "YULIA JACQUES · PROFESSIONAL COACHING",
     "headline": "Professional coaching for <em>leaders, managers, entrepreneurs and experienced professionals</em>",
-    "fields": "International leadership · Career transitions · Professional growth",
-    "lead": "I work individually with leaders, managers, entrepreneurs and professionals when they take on new responsibilities, navigate professional change or reflect on the next chapter of their careers.",
+    "fields": "International leadership · Career transitions · Effectiveness & priorities",
+    "lead": "I coach leaders, managers, entrepreneurs and professionals who want to develop their leadership, navigate change or transform how they work and make decisions.",
     "support": "Our sessions provide a confidential space to step back, explore your situation and work towards decisions that feel right for you.",
     "book": "Book a free discovery call",
     "explore": "Explore coaching services",
     "caption": "Yulia Jacques · Professional coaching",
     "tagline": "Français · English · Русский",
+    "langHeroTitle": "Your coaching, in the language of your choice",
+    "langHeroList": "English · Français · Русский",
+    "langHeroExpl": "Your discovery call and coaching sessions can take place in the language you prefer.",
+    "langCoachingNote": "All coaching programmes are available in English, French or Russian. You choose the language we work in.",
+    "langBookingTitle": "Choose the language for our conversation",
+    "langBookingDescription": "Your discovery call and coaching sessions can take place in English, French or Russian.",
+    "langBookingFormHint": "After choosing a time, specify your preferred language in the Google Calendar booking form.",
     "aboutTitle": "First-hand experience of international professional life",
     "aboutText": "Leading multicultural teams, meeting demanding targets, working within complex organisations or navigating professional change: these are realities I know first-hand after more than fifteen years in international environments.||This experience helps me understand the complexity of your professional context while remaining attentive to what is unique to you. In coaching, it informs how I listen and ask questions, helping you step back, explore new perspectives and move forward with your own choices.",
     "fact1": "15+ years",
@@ -821,8 +847,8 @@ const HOME=
     "headerShort": "Book",
     "linkedinNav": "LinkedIn",
     "brandSub": "Leadership & career · Professional coaching",
-    "footerText": "Individual professional coaching · International leadership, career transitions and growth.",
-    "meta": "Individual professional coaching for leaders and managers, international leadership and career transitions. Learn more and book a free 30-minute call.",
+    "footerText": "Individual professional coaching · International leadership, career transitions, effectiveness and priorities.",
+    "meta": "Professional coaching for leaders, managers, entrepreneurs and professionals: international leadership, career transitions, effectiveness and priorities.",
     "pageAbout": "About me",
     "pageCoaching": "Coaching services",
     "pagePricing": "Fees & format",
@@ -832,13 +858,20 @@ const HOME=
   "ru": {
     "eyebrow": "YULIA JACQUES · ПРОФЕССИОНАЛЬНЫЙ КОУЧИНГ",
     "headline": "Профессиональный коучинг для <em>руководителей, менеджеров, предпринимателей и специалистов</em>",
-    "fields": "Лидерство в международной среде · Карьерные перемены · Профессиональное развитие",
-    "lead": "Я провожу индивидуальные коучинговые сессии для руководителей, менеджеров, предпринимателей и специалистов, которые берут на себя новые обязанности, проходят через профессиональные изменения или размышляют о следующем этапе карьеры.",
+    "fields": "Лидерство в международной среде · Карьерные перемены · Приоритеты и эффективность",
+    "lead": "Я сопровождаю руководителей, менеджеров, предпринимателей и специалистов, которые хотят развивать лидерские навыки, проходить через перемены или менять свой подход к работе и принятию решений.",
     "support": "Наши встречи — это конфиденциальное пространство, где можно взглянуть на ситуацию со стороны, разобраться в своих вопросах и найти решения, которые подходят именно вам.",
     "book": "Записаться на бесплатную встречу",
     "explore": "Направления коучинга",
     "caption": "Yulia Jacques · Профессиональный коучинг",
     "tagline": "Français · English · Русский",
+    "langHeroTitle": "Коучинг на удобном для вас языке",
+    "langHeroList": "Русский · Français · English",
+    "langHeroExpl": "Ознакомительная встреча и коучинговые сессии проходят на выбранном вами языке.",
+    "langCoachingNote": "Все программы коучинга доступны на русском, французском и английском языках. Вы сами выбираете язык общения.",
+    "langBookingTitle": "Выберите удобный язык общения",
+    "langBookingDescription": "Ознакомительная встреча и последующие сессии могут проходить на русском, французском или английском языке.",
+    "langBookingFormHint": "После выбора времени укажите предпочитаемый язык в форме записи Google Календаря.",
     "aboutTitle": "Мой опыт работы в международной профессиональной среде",
     "aboutText": "Руководство международными командами, высокие требования к результатам, работа в сложных организациях и профессиональные перемены — всё это мне знакомо изнутри благодаря более чем пятнадцати годам работы в международной среде.||Этот опыт позволяет мне понимать сложность вашего профессионального контекста, не упуская из виду вашу индивидуальную ситуацию. В коучинге он помогает мне внимательнее слушать и задавать вопросы, чтобы вы могли посмотреть на происходящее со стороны, увидеть новые перспективы и принять собственные решения.",
     "fact1": "15+ лет",
@@ -858,8 +891,8 @@ const HOME=
     "headerShort": "Запись",
     "linkedinNav": "LinkedIn",
     "brandSub": "Лидерство и карьера · Коучинг",
-    "footerText": "Индивидуальный профессиональный коучинг · Лидерство, карьерные перемены и развитие.",
-    "meta": "Индивидуальный коучинг для руководителей и специалистов: международное лидерство и карьерные перемены. Бесплатная ознакомительная встреча 30 минут.",
+    "footerText": "Индивидуальный профессиональный коучинг · Лидерство, карьерные перемены, приоритеты и эффективность.",
+    "meta": "Коучинг для руководителей, предпринимателей и специалистов: международное лидерство, профессиональные перемены, эффективность и управление приоритетами.",
     "pageAbout": "Обо мне",
     "pageCoaching": "Направления коучинга",
     "pagePricing": "Стоимость и формат",
@@ -877,14 +910,14 @@ const e = value => String(value).replace(/&/g,'&amp;').replace(/</g,'&lt;').repl
 const ROUTES={home:'index.html',about:'about.html',coaching:'coaching.html',tarifs:'tarifs.html',contact:'contact.html'};
 function urlFor(page,hash=''){return ROUTES[page]+(language==='fr'?'':'?lang='+encodeURIComponent(language))+(hash?'#'+hash:'')}
 const PACKAGE_PRICE=''; // Fill only when a public price for six sessions is confirmed.
-const BOOKING_URL='https://calendly.com/coach-yuliajacques'; // Your public Calendly booking page.
+const BOOKING_URL='https://calendar.app.google/RwhKF2XNBLoir8R66'; // Public Google Calendar booking page.
 const LINKEDIN_URL='https://www.linkedin.com/in/yulia-jacques';
 function navHeader(c){return `<header><div class="wrap head"><a class="brand" href="${urlFor('home')}" aria-label="Yulia Jacques"><span class="monogram">YJ</span><span><span class="brand-text">YULIA JACQUES</span><br><span class="brand-sub">${c.brandSub}</span></span></a><nav id="nav" class="main-nav" aria-label="Site navigation">${[['home',c.homeNav],['coaching',c.coachingNav],['about',c.aboutNav],['contact',c.contactNav]].map(([slug,label])=>`<a href="${urlFor(slug)}" class="${slug===PAGE?'active':''}" ${slug===PAGE?'aria-current="page"':''}>${label}</a>`).join('')}</nav><div class="langs" aria-label="Language"><button data-lang="fr" class="${language==='fr'?'active':''}" aria-label="Français">FR</button><button data-lang="en" class="${language==='en'?'active':''}" aria-label="English">EN</button><button data-lang="ru" class="${language==='ru'?'active':''}" aria-label="Русский">RU</button></div><a class="header-book-cta" href="${urlFor('contact','booking')}" aria-label="${e(c.book)}"><span class="header-book-full">${c.book}</span><span class="header-book-short">${c.headerShort}</span><span class="header-book-arrow" aria-hidden="true">↗</span></a><button id="menu" class="menu" type="button" aria-label="Menu" aria-expanded="false">☰</button></div></header>`}
 function footer(c){return `<footer class="footer-redesign" id="footer"><div class="wrap"><div class="footer-main"><div class="footer-brand"><strong class="brand-text">YULIA JACQUES</strong><p>${c.footerText}</p><div class="footer-social" aria-label="Contact et LinkedIn">
 <a class="footer-social-link" href="mailto:coach@yuliajacques.com" title="coach@yuliajacques.com" aria-label="${c.contactNav} — coach@yuliajacques.com"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
 <a class="footer-social-link" href="${LINKEDIN_URL}" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn — Yulia Jacques (nouvel onglet)"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="2"/><path d="M7.4 10.2v7.1m0-10v.1M11.3 17.3v-7.1m0 3a3 3 0 0 1 6 0v4.1"/></svg></a>
 </div><div class="language-note">FRANÇAIS · ENGLISH · РУССКИЙ</div></div><div class="footer-menu">${[['home',c.homeNav],['coaching',c.coachingNav],['about',c.aboutNav],['contact',c.contactNav]].map(([slug,label])=>`<a href="${urlFor(slug)}">${label}</a>`).join('')}</div></div><div class="footer-bottom">© ${new Date().getFullYear()} Yulia Jacques · <span>${c.brandSub}</span></div></div></footer>`}
-function home(t,c){return `<section class="hero-multipage"><div class="wrap"><div class="hero-two"><div class="hero-copy"><h1>${c.headline}</h1><div class="hero-specialties">${c.fields}</div><p class="hero-lead">${c.lead}</p><p class="hero-detail">${c.support}</p><div class="actions"><a class="btn" href="${urlFor('contact','booking')}">${c.book} &nbsp;↗</a><a class="btn btn-secondary" href="${urlFor('coaching')}">${c.explore}</a></div></div><div class="hero-image-card"><img src="assets/yulia-jacques-portrait.jpg" alt="Yulia Jacques" fetchpriority="high" width="1200" height="1200"></div></div></div></section><section class="home-below"><div class="wrap"><div class="home-info"><div><h2>${c.aboutTitle}</h2><div class="home-about-copy">${c.aboutText.split('||').map(paragraph=>`<p>${paragraph}</p>`).join('')}</div><div class="actions" style="margin-top:18px"><a class="btn btn-secondary" href="${urlFor('about')}">${c.aboutNav} &nbsp;↗</a></div></div><div class="home-facts"><div class="home-fact"><strong>${c.fact1}</strong><span>${c.fact1sub}</span></div><div class="home-fact"><strong>${c.fact2}</strong><span>${c.fact2sub}</span></div><div class="home-fact"><strong>${c.fact3}</strong><span>${c.fact3sub}</span></div></div></div></div></section><section class="secondary-strip"><div class="wrap secondary-strip-inner"><div><h2>${c.stripTitle}</h2><p>${c.stripBody}</p></div><a class="btn" href="${urlFor('contact','booking')}">${c.stripCta} &nbsp;↗</a></div></section>`}
+function home(t,c){return `<section class="hero-multipage"><div class="wrap"><div class="hero-two"><div class="hero-copy"><div class="hero-languages" aria-label="${e(c.langHeroTitle)}"><span class="hero-languages-title">${c.langHeroTitle}</span><span class="hero-languages-list">${c.langHeroList}</span></div><h1>${c.headline}</h1><div class="hero-specialties">${c.fields}</div><p class="hero-lead">${c.lead}</p><p class="hero-detail">${c.support}</p><div class="actions"><a class="btn" href="${urlFor('contact','booking')}">${c.book} &nbsp;↗</a><a class="btn btn-secondary" href="${urlFor('coaching')}">${c.explore}</a></div><p class="hero-languages-expl">${c.langHeroExpl}</p></div><div class="hero-image-card"><img src="assets/yulia-jacques-portrait.jpg" alt="Yulia Jacques" fetchpriority="high" width="1200" height="1200"></div></div></div></section><section class="home-below"><div class="wrap"><div class="home-info"><div><h2>${c.aboutTitle}</h2><div class="home-about-copy">${c.aboutText.split('||').map(paragraph=>`<p>${paragraph}</p>`).join('')}</div><div class="actions" style="margin-top:18px"><a class="btn btn-secondary" href="${urlFor('about')}">${c.aboutNav} &nbsp;↗</a></div></div><div class="home-facts"><div class="home-fact"><strong>${c.fact1}</strong><span>${c.fact1sub}</span></div><div class="home-fact"><strong>${c.fact2}</strong><span>${c.fact2sub}</span></div><div class="home-fact"><strong>${c.fact3}</strong><span>${c.fact3sub}</span></div></div></div></div></section><section class="secondary-strip"><div class="wrap secondary-strip-inner"><div><h2>${c.stripTitle}</h2><p>${c.stripBody}</p></div><a class="btn" href="${urlFor('contact','booking')}">${c.stripCta} &nbsp;↗</a></div></section>`}
 function pageHeading(label,headline,description){return `<div class="page-hero page-hero-small"><div class="wrap"><div class="eyebrow">${label}</div><h1>${headline}</h1>${description?`<p class="lead">${description}</p>`:''}</div></div>`}
 function aboutPage(t,c){return `<div class="multipage-content"><section id="about" class="section about-section"><div class="wrap">
   <div class="about-intro-grid"><div>
@@ -900,7 +933,7 @@ function aboutPage(t,c){return `<div class="multipage-content"><section id="abou
 </div></section>
  </div>`}
 function coachingPage(t,c){return `<div class="multipage-content editorial-coaching">
-<section class="coaching-intro" id="offers"><div class="wrap coaching-intro-grid"><div><div class="eyebrow">${t.offersK}</div><h1>${t.offersTitle}</h1><div class="coaching-intro-rule"></div></div><div class="coaching-intro-aside"><p>${t.offersIntro}</p><a class="btn btn-secondary" href="#areas">${t.offersK} &darr;</a></div></div></section>
+<section class="coaching-intro" id="offers"><div class="wrap coaching-intro-grid"><div><div class="eyebrow">${t.offersK}</div><h1>${t.offersTitle}</h1><div class="coaching-intro-rule"></div></div><div class="coaching-intro-aside"><p>${t.offersIntro}</p><p class="coaching-language-notice">${c.langCoachingNote}</p><a class="btn btn-secondary" href="#areas">${t.offersK} &darr;</a></div></div></section>
 <section class="coaching-offers" id="areas"><div class="wrap">${t.offers.map((o,i)=>`<article class="editorial-offer"><div class="editorial-offer-head"><span class="editorial-offer-no">0${i+1}</span><div class="eyebrow">${t.offersK}</div><h2>${o.title}</h2></div><div class="editorial-offer-body"><p class="editorial-offer-intro">${o.short}</p><div class="editorial-offer-detail"><div class="editorial-offer-sub"><h3>${t.why}</h3><p>${o.why}</p></div><div class="editorial-offer-sub"><h3>${t.forWhom}</h3><p>${o.who}</p></div><div class="editorial-offer-sub wide"><h3>${t.workOn}</h3><p>${o.topics}</p></div></div></div></article>`).join('')}</div></section>
 <section class="coaching-process" id="process"><div class="wrap"><div class="eyebrow">${t.stepsK}</div><h2>${t.stepsTitle}</h2><div class="coaching-process-grid">${t.steps.map((s,i)=>`<article class="coaching-process-step"><span class="coaching-step-no">${s[0]}</span><h3>${s[1]}</h3><p>${s[2]}</p></article>`).join('')}</div></div></section>
 <section class="coaching-cta"><div class="wrap coaching-cta-inner"><div><h2>${t.offersCta}</h2><p>${t.offersNote}</p></div><a class="btn" href="${urlFor('contact','booking')}">${c.book} &nbsp;↗</a></div></section>
@@ -928,34 +961,27 @@ function contactPage(t,c){return `<div class="multipage-content booking-only-pag
   <div class="booking-page-heading"><div class="eyebrow">${t.contactK}</div><h1 class="section-primary-title">${t.contactTitle}</h1><p class="lead">${t.contactLead}</p></div>
   <div class="booking-card booking-card--single" id="booking">
     <div class="booking-intro"><div class="booking-intro-copy"><div class="eyebrow">${t.bookingK}</div><h2>${t.bookingTitle}</h2><p>${t.bookingBody}</p></div>
-    <div class="booking-details"><div class="booking-detail"><span class="booking-icon">◷</span>${t.bookingDuration}</div><div class="booking-detail"><span class="booking-icon">◎</span>${t.bookingLang}</div></div></div>
+    <div class="booking-details"><div class="booking-detail"><span class="booking-icon">◷</span>${t.bookingDuration}</div></div></div>
+    <div class="booking-language-statement"><div class="booking-language-copy"><strong>${c.langBookingTitle}</strong><span>${c.langBookingDescription}</span><span class="booking-language-guide">${c.langBookingFormHint}</span></div><span class="booking-language-names">${c.langHeroList}</span></div>
     <div class="booking-frame" id="bookingFrame" aria-label="${e(t.bookingPreviewTitle)}"><div class="booking-loading" aria-hidden="true">${t.bookingPreviewTitle}</div></div>
-    <div class="booking-direct"><a id="bookingLink" href="${BOOKING_URL}" target="_blank" rel="noopener noreferrer">${t.bookingOpen} ↗</a><div class="booking-extra-links"><a href="${LINKEDIN_URL}" target="_blank" rel="noopener noreferrer">${t.linkedinLabel} ↗</a></div></div>
   </div>
 </div></section></div>`}
 function setupBooking(){
-  const frame=$('#bookingFrame'), link=$('#bookingLink');
-  if(!frame||!link)return;
+  const frame=$('#bookingFrame');
+  if(!frame)return;
   const t=TEXT[language];
-  const url=BOOKING_URL;
-  link.href=url;link.textContent=t.bookingOpen+' ↗';
-  // Calendly officially supports embedding a public profile page or a particular event type.
-  frame.innerHTML='<div class="booking-widget" id="calendly-booking-widget"></div>';
-  function initCalendly(){
-    if(!window.Calendly)return;
-    const parent=$('#calendly-booking-widget');
-    if(parent)window.Calendly.initInlineWidget({url:url,parentElement:parent});
-  }
-  if(window.Calendly){initCalendly()}
-  else{
-    let script=document.getElementById('calendly-widget-script');
-    if(!script){
-      script=document.createElement('script');script.id='calendly-widget-script';
-      script.src='https://assets.calendly.com/assets/external/widget.js';
-      script.async=true;script.onload=initCalendly;
-      document.head.appendChild(script);
-    }else{script.addEventListener('load',initCalendly,{once:true})}
-  }
+  // The user's direct appointment link shows the updated language question.
+  // The previous inline iframe showed an outdated form; link to the verified
+  // public booking page rather than displaying inconsistent question fields.
+  frame.innerHTML=`<div class="google-booking-panel">
+    <div class="google-booking-calendar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="34" height="34" fill="none"><rect x="3" y="5" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.55"/><path d="M7 3v4M17 3v4M3 10h18" stroke="currentColor" stroke-width="1.55" stroke-linecap="round"/><path d="m9 15 2 2 4-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <h3>${t.googleBookingTitle}</h3>
+    <p>${t.googleBookingDescription}</p>
+    <a class="btn google-booking-button" href="${BOOKING_URL}" target="_blank" rel="noopener noreferrer">${t.googleBookingCta} &nbsp;↗</a>
+    <div class="google-booking-note">${t.googleBookingNote}</div>
+  </div>`;
+  const fallback=$('#bookingFallback');
+  if(fallback) fallback.hidden=true;
 }
 
 function render(){
